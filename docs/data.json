@@ -1,54 +1,53 @@
 {
   "date": "2026-06-21",
-  "macro_summary": "Markets enter Sunday June 22 open in a complex cross-current: the Fed's first Warsh-led FOMC meeting delivered a unanimous hold at 3.50\u20133.75% but a hawkish dot-plot with nine of 18 officials projecting at least one rate hike in 2026, triggering a mid-week selloff before a partial recovery. The dominant offsetting force is the US\u2013Iran peace deal signed at Versailles on June 17, which has pushed Brent crude to ~$76\u201384/barrel (a 3-month low) and reignited risk appetite \u2014 particularly in airlines, travel, and tech. The near-term macro calendar is heavy: May PCE (the Fed's preferred inflation gauge) prints Wednesday June 25, a potential binary catalyst for the rate-hike debate. Semiconductors remain the market's earnings-season epicenter with Micron reporting June 24.",
+  "macro_summary": "The dominant macro story entering this week is the Fed's hawkish pivot under new Chair Kevin Warsh: the June 16\u201317 FOMC held rates steady at 3.50\u20133.75% unanimously, removed its easing bias, and the dot plot now signals a median year-end rate of 3.8% \u2014 implying at least one hike, with traders pricing a possible move as early as October. Simultaneously, a U.S.-Iran framework agreement has triggered a sharp selloff in crude (Brent fell from ~$107 in May to ~$78 by mid-week), easing near-term inflation fears but raising questions about whether oil's decline fully offsets the Fed's hawkish shift. Two concrete near-term catalysts dominate this week's stock agenda: Micron's Q3 earnings on June 24 (after close) and the May PCE print on June 25, which will be the next major inflation datapoint after the FOMC. Markets are returning from the Juneteenth holiday with a mixed setup \u2014 hawkish rates pressure versus AI earnings momentum.",
   "key_events": [
-    "Fed held rates at 3.50\u20133.75% (June 17, unanimous); dot-plot now shows 9/18 officials projecting \u22651 hike in 2026 \u2014 hawkish shift from March",
-    "US\u2013Iran peace MOU signed at Versailles (June 17); Strait of Hormuz to reopen within 30 days; Brent crude ~$76\u201384/bbl, down ~4\u20135% on the week",
-    "Marvell Technology (MRVL) joins the S&P 500 today (June 22 open) via quarterly rebalance",
-    "Trump Truth Social post claimed Apple agreed to design/build chips with Intel \u2014 unconfirmed by either company; INTC surged ~10.6% June 18",
-    "Micron (MU) Q3 FY2026 earnings scheduled June 24 after close \u2014 next major semi earnings catalyst",
-    "May PCE price index (Fed's preferred inflation gauge) releases June 25 at 8:30am EDT",
-    "Delta Air Lines raised quarterly dividend ~15% to $0.215/share (June 18); Morgan Stanley PT raised to $105",
-    "KeyBanc raised Marvell price target 48% to $385 (June 18); Tower Semi/Marvell announced 5M+ coherent photonic ICs shipped"
+    "Fed held 3.50\u20133.75% unanimously at June 16\u201317 FOMC; dot plot signals median year-end rate of 3.8%, removing easing bias; traders now pricing a possible hike as early as October",
+    "U.S.-Iran MoU framework signed ~June 17; Brent crude fell from ~$107 (May avg) to ~$78 by June 17, lowest since early March",
+    "Trump announced Apple\u2013Intel chip manufacturing partnership on June 18; Intel surged ~10.5% to ~$134 on news, no formal company confirmation yet",
+    "Micron Q3 earnings confirmed for June 24 after close; company guided $33.5B revenue and ~$19.15 EPS; multiple analysts doubled price targets this week",
+    "May PCE (Fed's preferred inflation gauge) due June 25 at 8:30 a.m. EDT \u2014 first major inflation print post-hawkish FOMC",
+    "U.S. markets closed June 19 (Juneteenth); first full trading week resumes June 21\u201322",
+    "S&P 500 ~58% of stocks above 50-day MA as of mid-week \u2014 recovering from late-March lows but still below early-year highs"
   ],
   "ideas": [
     {
       "ticker": "MU",
       "type": "stock",
       "name": "Micron Technology, Inc.",
-      "thesis": "Micron reports Q3 FY2026 earnings on June 24 after close \u2014 a hard, confirmed date with analyst consensus EPS of ~$19.95. The prior quarter (Q2, reported March 18) delivered EPS of $12.20 against an $8.60 estimate, a 42% beat, and the company guided Q3 to record revenue of $33.5B at ~81% gross margin. The HBM/AI memory super-cycle is structurally intact: hyperscaler capex is forecast to exceed $750B in 2026 with 75% directed at AI infrastructure, directly benefiting Micron's high-bandwidth memory business.",
-      "catalyst": "Q3 FY2026 earnings report June 24, 2026 (after close, confirmed by Micron IR); analyst call at 6:00 PM EDT same day",
-      "edge": "46-analyst Buy consensus; mean 12-month price target $286.54 (LSEG data) vs current price well below that level; prior quarter beat estimates by 41.86% ($12.20 actual vs $8.60 estimate); company-guided Q3 gross margin of ~81% would be a record; SOXX rebalance has MU as the largest holding at 11.62% of the $42.9B fund, creating structural ETF demand",
-      "bull_case": "Another large earnings beat (in line with the prior-quarter pattern) plus record-high gross margin guidance for Q4 could catalyze a sharp re-rating; DRAM calendar-2026 bit shipment growth in the low-20s% YoY plus continued HBM share gains vs SK Hynix support a multi-quarter earnings upgrade cycle.",
-      "bear_case": "The hawkish Fed dot-plot compresses high-multiple growth valuations broadly; any softening in data-center order commentary or NAND pricing weakness could disappoint on the Q4 guide even with a Q3 beat; trade/geopolitical impacts were explicitly excluded from guidance, leaving China-related revenue at risk.",
+      "thesis": "Micron reports Q3 FY2026 earnings on June 24 after close \u2014 the highest-profile catalyst in the semiconductor space this week. The company guided record Q3 revenue of $33.5B (\u00b1$750M) and non-GAAP EPS of $19.15 (\u00b1$0.40). Last quarter (Q2), Micron crushed estimates by ~42% ($12.20 actual vs $8.60 consensus), and AI-driven memory demand continues to outstrip supply with Apple CEO Tim Cook flagging 'unavoidable' iPhone price hikes from memory shortages \u2014 a direct demand signal. Multiple top-tier analysts more than doubled their price targets this week in anticipation of the print.",
+      "catalyst": "Q3 FY2026 earnings release June 24, 2026 after market close (confirmed by Micron IR); analyst call at 6:00 PM EDT same day",
+      "edge": "Stifel raised target to $1,500 (+32% from ~$1,134 current), Wedbush to $1,300 (+15%), Rosenblatt to $1,200 (+6%). Company's own guidance implies ~$19.15 EPS; consensus sits near ~$19.95, with some estimates above $20. Micron has beaten EPS estimates by 32\u201342% in the last two quarters. Stock trades at ~21.7x P/E on trailing earnings, but forward multiples compress rapidly if Q3 and Q4 guidance remains strong \u2014 memory shortage is structural, not cyclical, per company commentary.",
+      "bull_case": "A third consecutive blowout quarter \u2014 revenue above $33.5B guidance and forward guidance topping the ~$39.6B Q4 analyst consensus \u2014 could trigger another sharp re-rating. AI HBM demand is consuming nearly all memory production capacity and competitors like SK Hynix have explicitly flagged multi-year supply constraints.",
+      "bear_case": "Stock has surged ~297% YTD to a $1.28T market cap; GF Value flags it as 191% overvalued vs intrinsic value; insiders have sold $92.5M in the past three months. Any guidance miss or even in-line guidance (given elevated expectations) risks a 'sell-the-news' selloff from a historically extended position. Memory cycles are notoriously volatile.",
       "conviction": "high",
       "category": "earnings-driven"
     },
     {
-      "ticker": "MRVL",
-      "name": "Marvell Technology, Inc.",
+      "ticker": "LNG",
       "type": "stock",
-      "thesis": "Marvell enters today's session as a fresh S&P 500 constituent for the first time, triggering mechanistic index-fund buying from the quarter-end rebalance. This comes immediately after KeyBanc raised its price target 48% to $385 (from $260) on June 18, citing optical networking as 'the most significant and durable growth opportunity' in AI data centers \u2014 a thesis validated by the milestone of 5 million coherent photonic ICs shipped with Tower Semiconductor. Marvell also raised its FY2028 revenue guidance last month from $15B to $16.5B, and its data center business now represents >75% of total revenue.",
-      "catalyst": "S&P 500 index inclusion effective today (June 22 open) \u2014 mechanistic index-fund forced buying; next earnings release estimated August 27, 2026",
-      "edge": "KeyBanc new street-high PT of $385 implies ~24% upside from the June 18 close of $310.58; trading volume on June 18 was 383% above the 3-month average (187.8M shares), signaling institutional accumulation pre-inclusion; 38 of 44 analysts rate it Buy/Strong Buy; Nvidia made a $2B investment in Marvell this year on the NVLink Fusion platform, providing a concrete revenue anchor",
-      "bull_case": "Index-inclusion forced buying into a stock with accelerating AI networking demand could sustain momentum through the August earnings report; if the Celestial AI acquisition closes and silicon photonics ramps faster than expected, the FY2029 $20B+ data-center revenue path could pull forward.",
-      "bear_case": "MRVL is up ~265% YTD and trades at a P/E of ~99x \u2014 the S&P inclusion effect is widely known and may already be priced in (the stock rose 51% in June alone before inclusion); heavy insider selling ($34.9M in past 3 months) is a concern; the CFO filed to sell $65M in stock just after the S&P announcement.",
-      "conviction": "high",
-      "category": "sector-driven"
-    },
-    {
-      "ticker": "DAL",
-      "type": "stock",
-      "name": "Delta Air Lines, Inc.",
-      "thesis": "Delta is among the clearest structural beneficiaries of the US\u2013Iran peace deal: jet fuel costs jumped 78% in April YoY and IATA had projected airline fuel expenses at $350B in 2026 vs $252B in 2025. With Brent crude now at multi-month lows and the Strait of Hormuz set to reopen within 30 days, the single largest line-item pressure on Delta's P&L has shifted favorably. Delta reinforced confidence on June 18 by raising its quarterly dividend 15% to $0.215/share, signaling balance-sheet strength despite the fuel headwind year.",
-      "catalyst": "Strait of Hormuz reopening (within 30 days per the MOU terms) \u2014 a staged but concrete supply-side event; Q2 2026 earnings expected mid-July (exact date TBD)",
-      "edge": "Morgan Stanley PT $105 (raised June 1 from $90) and Bernstein PT $93 (June 17) both sit above the current ~$82\u201384 price, with consensus at ~$79\u201381; Wells Fargo maintains Buy; unusual call-volume signal flagged by TipRanks on June 9; dividend raise signals management confidence in forward cash flows",
-      "bull_case": "If jet fuel sustains below $90/bbl Brent through Q2 earnings, Delta could materially beat already-reduced analyst fuel-cost assumptions, triggering earnings upgrades; premium travel demand has been resilient and Delta's loyalty/AmEx co-brand revenue stream provides downside protection.",
-      "bear_case": "The stock has already rallied ~40% over three months and is near or above the street consensus target \u2014 much of the fuel-relief catalyst may already be priced in; the 60-day MOU negotiation period could break down, re-spiking oil; Bernstein noted the 'peace could prove fragile' and producers may delay restarting output; the hawkish Fed environment penalizes cyclical recovery stocks.",
+      "name": "Cheniere Energy, Inc.",
+      "thesis": "The Iran war and Strait of Hormuz closure since March 2026 has structurally redirected European LNG demand toward U.S. suppliers. IEEFA estimates the U.S. could supply two-thirds of Europe's LNG imports in 2026, up sharply from prior levels, and Cheniere \u2014 the largest U.S. LNG exporter \u2014 is the most direct public equity expression of this theme. The company sells ~90% of output under long-term, fixed-fee contracts providing durable cash flow, and is actively expanding Corpus Christi capacity.",
+      "catalyst": "Ongoing structural shift: European LNG import mix reorienting toward U.S. as Qatari Ras Laffan remains offline (accounts for ~20% of global LNG output). If Iran deal fully normalizes flows, near-term upside is capped; but if the agreement stalls (analyst caution: 'hardest part is yet to come'), supply disruption persists. No specific earnings date imminent \u2014 Q2 results would be in late July/early August.",
+      "edge": "Cheniere's long-term fixed-fee contract model (90% of volumes) insulates revenue from spot price volatility. The structural demand gap from Europe is quantifiable: Europe's share of Qatari LNG fell to 6% in Q1 2026 from much higher levels, and U.S. LNG is now the primary replacement. The Motley Fool data shows Cheniere stock is down ~1.89% today despite the macro tailwind \u2014 potential dislocation if Iran peace deal falters or normalizes more slowly than priced.",
+      "bull_case": "If the Iran MoU stalls in implementation (analyst flags 'logistics to renewed geopolitical tensions' as underpriced), Qatari LNG remains offline and European long-term contracts accelerate toward U.S. suppliers including Cheniere, driving multi-year volume and pricing upside.",
+      "bear_case": "Brent has already crashed ~27% from May highs on peace deal optimism \u2014 sentiment is front-running full Hormuz reopening. If flows normalize faster than expected, near-term LNG price pressure returns. Cheniere's fixed-fee model limits upside from spot prices, and U.S.-Europe political tensions around LNG pricing are a longer-term risk.",
       "conviction": "medium",
       "category": "macro-driven"
+    },
+    {
+      "ticker": "INTC",
+      "type": "stock",
+      "name": "Intel Corporation",
+      "thesis": "On June 18, Trump announced on Truth Social that Apple agreed to work with Intel to design and manufacture chips in the U.S. \u2014 Intel surged ~10.5% to ~$134 on the news. The deal (preliminarily reported by WSJ in May) would validate Intel's 18A foundry process to external customers at a critical moment: Intel also disclosed its 18A-P next-gen node entered risk production at the VLSI Symposium on June 16. This is a legitimacy catalyst for Intel's long-struggling foundry division.",
+      "catalyst": "Apple chip manufacturing partnership announced June 18 (no formal company confirmation yet); 18A-P node risk production entry disclosed June 16; next earnings report would be late July 2026",
+      "edge": "The bull case has a quantifiable narrative: Intel's foundry division landing Apple would validate 18A process to other potential customers and represent a major revenue ramp. However, the stock at ~$134 now trades ~30-40% *above* the analyst consensus price target (StockAnalysis consensus ~$94, TipRanks average ~$92.75) after a ~220% run from March\u2013May 2026, and the Hold consensus from 48 analysts reflects skepticism that execution can match the hype. This is a medium-conviction watch, not a high-conviction buy at current levels.",
+      "bull_case": "Formal confirmation of the Apple partnership, combined with additional external foundry wins using 18A-P, could force a broad analyst re-rating and push the stock toward the high-end targets ($140\u2013$200). The U.S. government's ~10% equity stake and CHIPS Act support create a policy moat.",
+      "bear_case": "Neither Apple nor Intel has formally confirmed the deal as of June 18; Trump announcements without company verification have previously not materialized. Analyst consensus at ~$93 implies ~30% downside from current price; Intel's foundry has repeatedly missed yield and reliability benchmarks; the announcement may be largely priced in after the 10.5% surge.",
+      "conviction": "medium",
+      "category": "sector-driven"
     }
   ],
-  "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. All data sourced from publicly available news and analyst commentary as of June 21, 2026. Verify all figures independently before acting. Past performance and analyst targets are not guarantees of future results.",
-  "generated_at": "2026-06-21T22:42:59.733321+00:00"
+  "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
+  "generated_at": "2026-06-21T23:24:46.638108+00:00"
 }
