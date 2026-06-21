@@ -1,55 +1,53 @@
 {
   "date": "2026-06-21",
-  "macro_summary": "Markets enter the week digesting a hawkish Fed pivot and a transformative geopolitical shift. The June 16-17 FOMC meeting under new Chair Kevin Warsh held rates at 3.50%-3.75% but the updated dot plot showed nine of 18 policymakers projecting at least one rate hike in 2026 \u2014 a significant hawkish shift from March's two-cut median. Separately, the US-Iran peace agreement signed June 15 reopened the Strait of Hormuz, sending crude oil down ~5% to three-month lows and triggering a broad risk-on rally in equities, led by tech and AI chip names. The macro backdrop is thus a two-sided coin: easing energy-driven inflation pressure is bullish for growth stocks, but the Fed's tightening lean caps rate-sensitive sectors. The highest-conviction ideas this week are concentrated in semiconductors, where a specific earnings event and a hard-dated index inclusion create two distinct, quantifiable setups.",
+  "macro_summary": "Markets enter the week in recovery mode after the June 17 FOMC decision \u2014 the Fed's first under Chair Kevin Warsh \u2014 held rates at 3.50\u20133.75% but delivered a hawkish shock: nine of 18 officials penciled in at least one rate hike in 2026, a sharp reversal from March's two-cut projection, sending short-term yields higher and equities lower mid-week. A second major macro shift is the US-Iran peace MOU signed June 18, which has reopened the Strait of Hormuz and pushed crude oil roughly 5% lower from its recent highs, easing inflation pressures but still leaving WTI ~40% above its year-start level. Today's session is light on scheduled data, but May PCE and final Q1 GDP third estimate are due June 25 \u2014 four days out \u2014 and will be closely watched for clues on whether the Fed's hawkish tilt is warranted. The dominant sector story is semiconductors: the Philadelphia Semiconductor Index has surged 60\u201380% YTD on AI capex momentum, and Micron reports earnings today after the close, making it the single highest-conviction event on the calendar.",
   "key_events": [
-    "FOMC held rates at 3.50%-3.75% on June 17; 9 of 18 officials now project a rate hike in 2026 \u2014 hawkish shift vs. March dot plot",
-    "Chair Kevin Warsh's debut press conference: brief 130-word statement, dropped easing bias, heightened inflation focus",
-    "US-Iran peace MOU signed June 15; Strait of Hormuz to reopen within 30 days \u2014 WTI crude fell to ~$80.75 on the news",
-    "Trump Truth Social post (June 18) announced Apple agreed to work with Intel on US chip design and manufacture; neither company confirmed",
-    "Marvell Technology (MRVL) S&P 500 inclusion effective June 22 \u2014 index funds must buy at ~0.3-0.4% weight",
-    "Micron Technology (MU) Q3 FY2026 earnings confirmed for June 24 after market close; multiple analysts doubled price targets on June 18",
-    "Semiconductor ETF (SOXQ) up ~99% year-to-date; SOXX rebounded 6.6% on June 18 post-Fed selloff recovery + Iran deal",
-    "May CPI running at 4.2% YoY \u2014 highest in 3+ years; PCE inflation revised up to 3.6% in Fed projections; rate-cut bets fully priced out",
-    "Q1 2026 GDP: +2.0% annualized; business investment surged 10%+ driven by AI capex"
+    "FOMC (June 17): Fed held at 3.50\u20133.75%, but dot plot shifted hawkish \u2014 9 of 18 officials now project \u22651 rate hike in 2026; CPI running at 4.2% YoY in May",
+    "US-Iran MOU signed June 18: Strait of Hormuz reopening; WTI crude fell ~5% to ~$80/bbl on June 15 but still up ~40% YTD; full energy-supply normalization expected to take months",
+    "Intel/Apple chip deal (June 18): Trump announced via Truth Social that Apple will work with Intel to design/manufacture chips domestically; Intel surged ~10%; deal formally unconfirmed by either company",
+    "Micron (MU) Q3 FY2026 earnings: due tonight after market close (June 21); consensus ~$19.95 EPS on ~$34.66B revenue; company guidance was $33.5B \u00b1 $0.75B with ~81% gross margin",
+    "June 25: May PCE price index + GDP final Q1 third estimate due \u2014 the Fed's preferred inflation gauge, critical given hawkish dot-plot shift",
+    "SpaceX (SPCX) listed on Nasdaq June 13; options began trading this week",
+    "NVDA S&P 500 index inclusion effective June 22 (Monday)"
   ],
   "ideas": [
     {
       "ticker": "MU",
       "type": "stock",
       "name": "Micron Technology, Inc.",
-      "thesis": "Micron reports fiscal Q3 2026 earnings on June 24 (3 days away) with the company itself guiding to record revenue of $33.5B \u00b1 $0.75B and ~81% gross margin \u2014 a structural step-change driven by AI memory demand. Apple CEO Tim Cook's public statement that memory price hikes are 'unavoidable' directly validated Micron's pricing power days before the print. Multiple top-tier analysts doubled their price targets on June 18 (Wedbush to $1,300, Stifel to $1,500, Rosenblatt to $1,200), all citing HBM4 supply tightness and long-term hyperscaler contracts.",
-      "catalyst": "Fiscal Q3 2026 earnings release: June 24, 2026 after market close (confirmed by Micron IR). Company-guided revenue of $33.5B and non-GAAP EPS of $19.15 \u00b1 $0.40 set a concrete beat-or-miss line.",
-      "edge": "Wedbush raised PT 136% to $1,300 and Stifel raised PT to $1,500 \u2014 both from $550 \u2014 in the week prior to earnings. With MU trading around ~$950-$1,150 (per recent data points), the Stifel target implies ~30-58% upside. Company guidance of $33.5B Q3 revenue at ~81% gross margin would represent ~75%+ YoY revenue growth; forward P/E on guided EPS of ~$19/quarter annualizes to a modest multiple for the growth rate. 27 of 30 analysts tracked by WTOP are in 'buy' mode.",
-      "bull_case": "If Micron hits or exceeds its own record guidance and raises Q4 outlook, it validates the AI memory supercycle thesis. Apple price-hike commentary suggests memory ASPs remain elevated, and HBM4 supply remains sold out through 2027 per management. A blowout print could send the stock materially higher.",
-      "bear_case": "MU has already surged ~300%+ YTD and the stock trades near all-time highs with very high expectations baked in \u2014 any sequential gross margin compression or soft Q4 guide could trigger a sharp selloff, as the market's implied move around earnings is elevated. Memory markets are historically cyclical and SK Hynix/Samsung remain credible competitive threats in HBM.",
+      "thesis": "Micron reports Q3 FY2026 earnings tonight after the close \u2014 the most concrete, dated catalyst in today's session. The company has guided for record revenue of $33.5B \u00b1 $0.75B and ~81% gross margins, and has beaten EPS consensus by 33\u201342% in each of the last two quarters as HBM memory demand from AI hyperscalers has proven consistently stronger than Street estimates. Wall Street has been aggressively revising targets upward, with RBC raising its target to $1,200 on June 15 alone, and Cantor Fitzgerald's most aggressive target sitting at $1,500 \u2014 versus today's price near $1,134.",
+      "catalyst": "Q3 FY2026 earnings release tonight, June 21 after market close (confirmed); Q4 guidance commentary on HBM allocation, DRAM pricing, and CapEx trajectory will be the incremental mover",
+      "edge": "Consensus EPS of $19.95 vs company-guided midpoint of $19.15 implies Street is already modeling an above-guidance beat. RBC target $1,200 and Cantor target $1,500 vs current ~$1,134 imply 6\u201332% upside from the most recently updated analysts; Q2 saw actual EPS of $12.20 vs Street estimate of $8.60 \u2014 a 42% beat \u2014 establishing a pattern of material upside surprise",
+      "bull_case": "HBM capacity sold out through 2026 creates pricing power; if gross margin guidance is raised above 81% for Q4 and full-year CapEx commentary remains disciplined, the stock could re-rate toward the $1,200\u2013$1,500 analyst target range. AI infrastructure spending shows no signs of slowing, with every major cloud provider expanding data center capex.",
+      "bear_case": "The stock has surged 297% YTD and trades at a $1.28T market cap \u2014 GF Value estimates it at 191% overvalued at current prices. Any softness in Q4 guidance (e.g., hyperscaler order delays, DRAM pricing moderation, or tariff/geopolitical language) could trigger a sharp post-earnings selloff. Insiders sold $92.5M in shares over the last three months.",
       "conviction": "high",
       "category": "earnings-driven"
     },
     {
-      "ticker": "MRVL",
+      "ticker": "NVDA",
       "type": "stock",
-      "name": "Marvell Technology, Inc.",
-      "thesis": "Marvell joins the S&P 500 on June 22 \u2014 tomorrow \u2014 a hard-dated mechanical event that requires every passive index fund and ETF tracking the S&P 500 (~$8 trillion benchmarked) to purchase MRVL shares at its ~0.3-0.4% index weight. The inclusion follows Marvell's first GAAP-profitable quarter (Q1 FY2027 net income: $34.5M) which cleared the final S&P eligibility hurdle. Nvidia CEO Jensen Huang publicly called Marvell 'the next $1 trillion company' at Computex, reinforcing the custom AI ASIC thesis.",
-      "catalyst": "S&P 500 inclusion effective June 22, 2026 (tomorrow). Passive fund rebalancing to ~0.3%-0.4% weight in the index forces billions in mechanically-driven buying concentrated around today/tomorrow's close.",
-      "edge": "B. Riley raised price target 44% to $345 (from $240), reiterating Buy. S&P 500 has ~$8 trillion in passive AUM \u2014 a 0.3-0.4% weight implies ~$24-32 billion in forced buying demand concentrated into a single rebalancing window. MRVL is up ~312% over the past year; the index inclusion broadens institutional ownership to funds that previously could not hold it.",
-      "bull_case": "Forced passive buying creates near-term technical demand that is independent of near-term fundamentals. Post-inclusion, Marvell's custom AI chip business (including major Google TPU and Amazon Trainium ASIC wins) provides a multi-year secular growth runway. Nvidia CEO endorsement adds credibility to the AI infrastructure story.",
-      "bear_case": "MRVL trades at ~99x trailing P/E and ~58x forward P/E \u2014 far above its 5-year median of ~30x. Much of the index-inclusion premium may already be priced in after the stock's 312% 12-month run and the June 8 announcement pop. Post-June 22, the catalyst is spent and focus reverts to fundamentals; Q2 results are not until late August/September. Insider selling of ~$32M with zero insider purchases is a cautionary signal.",
-      "conviction": "high",
-      "category": "technical"
-    },
-    {
-      "ticker": "INTC",
-      "type": "stock",
-      "name": "Intel Corporation",
-      "thesis": "Trump's June 18 Truth Social post announcing Apple agreed to work with Intel to design and build chips in the US sent Intel up ~10.6% to ~$134, pushing it to all-time highs. Intel's 18A node is yielding ahead of schedule (2 quarters per CFO), and Bank of America double-upgraded the stock to Buy on June 11 with a $135 target, projecting foundry revenue could rise from $1.1B in 2026 to $47.1B by 2030. Q2 earnings are July 23, when CEO Lip-Bu Tan has flagged formal foundry customer commitments are expected in H2 2026.",
-      "catalyst": "Q2 2026 earnings: July 23, 2026. CEO has guided for formal external foundry commitments in H2 2026 \u2014 earnings will be the first checkpoint on whether Apple discussions have translated into contracted production.",
-      "edge": "BofA projects foundry revenue of $47.1B by 2030, up from $1.1B today. However, the mean analyst target (~$94, per multiple sources) is roughly 30% BELOW the current price of ~$134, meaning the stock has dramatically outrun consensus. This is a double-edged signal: the market is pricing in a successful foundry transformation that is directionally real but unproven at scale.",
-      "bull_case": "If Intel secures a confirmed Apple foundry agreement for M/A-series chip production beginning in 2027, the stock re-rates as America's strategic foundry champion with government backing (10% US government stake, $8.9B CHIPS Act funding). Six consecutive quarters of revenue above guidance and the 18A yield success support execution credibility.",
-      "bear_case": "Neither Apple nor Intel has confirmed the deal \u2014 it remains a Trump social media post. The stock trades ~30% above the mean analyst consensus target of ~$94. Free cash flow is still negative, foundry losses are running at ~$2.5B/quarter, and Intel must prove it can manufacture Apple's ARM-based chips at scale despite its core x86 expertise. Significant execution risk remains before any Apple revenue flows.",
+      "name": "NVIDIA Corporation",
+      "thesis": "Nvidia's S&P 500 index inclusion becomes effective at the open Monday June 22, creating near-term forced buying from passive index funds. Separately, the stock trades at a forward P/E of just 25.4x despite posting record fiscal 2026 revenue of $215.9B \u2014 a stark valuation discount to peers like AMD (84.4x forward P/E) that have rallied further on the same AI capex theme. The US-Iran peace deal also incrementally improves the macro environment for rate-sensitive high-multiple tech, as oil-driven inflation pressure eases.",
+      "catalyst": "S&P 500 index inclusion effective June 22 (Monday) driving passive index-fund buying; Micron earnings tonight may also act as a proxy read-through on AI infrastructure demand that benefits NVDA sentiment",
+      "edge": "Forward P/E of 25.4x vs AMD's 84.4x on comparable AI infrastructure exposure \u2014 Nvidia trades at a roughly 70% valuation discount to its nearest competitor despite higher revenue scale ($215.9B) and faster growth (65% YoY revenue); passive index inclusion flows are a mechanical near-term demand catalyst independent of fundamentals",
+      "bull_case": "Index inclusion creates forced buying regardless of macro conditions; if Micron tonight signals continued AI hyperscaler capex strength, NVDA re-rates as the primary GPU beneficiary. The valuation gap to AMD gives room for multiple expansion.",
+      "bear_case": "SOXX has already surged 45\u201350% since March and RSI was recently above 80 \u2014 deeply overbought. If Micron disappoints tonight or Q4 guidance is weak, the entire AI chip complex could sell off in sympathy regardless of NVDA's own fundamentals. The hawkish Fed dot plot also compresses high-multiple tech valuations if rate hike odds increase.",
       "conviction": "medium",
       "category": "sector-driven"
+    },
+    {
+      "ticker": "JETS",
+      "type": "etf",
+      "name": "U.S. Global Jets ETF",
+      "thesis": "The US-Iran MOU signed June 18 and the reopening of the Strait of Hormuz represent a structural fuel cost inflection for the airline industry, which had been absorbing a 121% YoY surge in jet fuel prices and an IATA-estimated $100B increase in collective fuel costs for 2026. The IEA characterized the Hormuz closure as 'the largest supply disruption in the history of the global oil market.' Airlines were among the first movers on June 15 (up 4\u20139%), but the full margin benefit is a multi-quarter story as hedges roll off and lower spot fuel prices flow through income statements.",
+      "catalyst": "Strait of Hormuz physically reopening in the coming weeks as mine clearance and insurance normalization proceed; Q2 earnings season for airlines (mid-July) will be the first opportunity to quantify the fuel cost tailwind in guidance",
+      "edge": "IATA pre-deal projected 2026 industry net profits at just $23B vs $45B in 2025 \u2014 the deal, if sustained, substantially closes that gap. Jet fuel prices had surged 121% YoY by April 2026 vs. ~$90/barrel baseline in 2025; WTI is now ~$80\u201381/barrel and trending lower. JETS ETF provides diversified exposure across UAL, DAL, AAL, LUV, ALK, and others without single-carrier execution risk.",
+      "bull_case": "If oil continues to normalize toward $70\u201375 as Hormuz throughput recovers over the next 2\u20133 months, airline fuel costs could fall 20\u201330% from peak, dramatically improving 2H 2026 earnings. Forward bookings typically lag fare adjustments, meaning revenue holds even as costs decline.",
+      "bear_case": "The initial rally (4\u20139% on June 15) may have already priced in most of the deal optimism; full Hormuz normalization could take many months per the US Energy Secretary, and oil inventories are at their lowest since 1983 \u2014 meaning prices may not fall as far as markets expect. A hawkish Fed that follows through on a rate hike would also compress consumer spending and travel demand.",
+      "conviction": "medium",
+      "category": "macro-driven"
     }
   ],
-  "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. All ideas require independent verification before acting. Past performance is not indicative of future results.",
-  "generated_at": "2026-06-21T22:26:04.551711+00:00"
+  "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
+  "generated_at": "2026-06-21T22:30:25.443370+00:00"
 }
