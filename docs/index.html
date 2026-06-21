@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Briefing">
+<title>Morning Briefing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0B0E0C;
+    --paper: #F5F2EA;
+    --paper-dim: #EBE7DA;
+    --green: #3D5A45;
+    --green-bright: #5C8268;
+    --rust: #9C3B2E;
+    --amber: #C9A227;
+    --caption: #8C8A7C;
+    --hairline: rgba(245, 242, 234, 0.14);
+    --hairline-dark: rgba(11, 14, 12, 0.12);
+  }
+
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: 'Inter', -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    padding-bottom: env(safe-area-inset-bottom);
+    min-height: 100vh;
+  }
+
+  .masthead {
+    padding: calc(env(safe-area-inset-top) + 22px) 20px 16px;
+    border-bottom: 1px solid var(--hairline);
+    position: sticky;
+    top: 0;
+    background: var(--ink);
+    z-index: 10;
+  }
+
+  .masthead-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4px;
+  }
+
+  .masthead-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+  }
+
+  .masthead-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--caption);
+    letter-spacing: 0.02em;
+  }
+
+  .masthead-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: var(--caption);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .status-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--green-bright);
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+
+  main { padding: 20px; }
+
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 10px;
+  }
+
+  .macro-card {
+    background: var(--paper);
+    color: var(--ink);
+    border-radius: 4px;
+    padding: 18px 18px 16px;
+    margin-bottom: 28px;
+  }
+
+  .macro-summary {
+    font-family: 'Fraunces', serif;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0 0 14px;
+  }
+
+  .key-events {
+    list-style: none;
+    margin: 0;
+    padding: 12px 0 0;
+    border-top: 1px solid rgba(11,14,12,0.12);
+  }
+
+  .key-events li {
+    font-size: 13px;
+    line-height: 1.5;
+    padding-left: 14px;
+    position: relative;
+    margin-bottom: 6px;
+    color: #3a3a32;
+  }
+
+  .key-events li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--green);
+  }
+
+  .key-events li:last-child { margin-bottom: 0; }
+
+  .ideas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 14px;
+  }
+
+  .ideas-hint {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--caption);
+  }
+
+  .empty-ideas {
+    font-size: 13.5px;
+    color: var(--caption);
+    line-height: 1.5;
+    padding: 18px;
+    border: 1px dashed var(--hairline);
+    border-radius: 6px;
+    text-align: center;
+  }
+
+  .idea-card {
+    background: var(--paper-dim);
+    color: var(--ink);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+
+  .idea-summary {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    font-family: inherit;
+    color: inherit;
+  }
+
+  .idea-summary:active { background: rgba(11,14,12,0.05); }
+
+  .conviction-flag {
+    flex: 0 0 4px;
+    align-self: stretch;
+    border-radius: 3px;
+    background: var(--hairline-dark);
+  }
+
+  .conviction-flag.high { background: var(--amber); }
+  .conviction-flag.medium { background: var(--green); }
+
+  .idea-summary-main {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .idea-top-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 3px;
+  }
+
+  .idea-ticker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .idea-type-pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #6b6a5e;
+    background: rgba(11,14,12,0.06);
+    border-radius: 20px;
+    padding: 2px 8px;
+  }
+
+  .idea-takeaway {
+    font-size: 13.5px;
+    line-height: 1.4;
+    color: #4a4940;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .conviction-label {
+    flex: 0 0 auto;
+    text-align: right;
+  }
+
+  .conviction-word {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    display: block;
+  }
+
+  .conviction-word.high { color: #8a6d12; }
+  .conviction-word.medium { color: var(--green); }
+
+  .chevron {
+    flex: 0 0 auto;
+    color: #9a988a;
+    transition: transform 0.2s ease;
+    font-size: 14px;
+  }
+
+  .idea-card.open .chevron { transform: rotate(180deg); }
+
+  .idea-detail {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease;
+  }
+
+  .idea-card.open .idea-detail {
+    max-height: 600px;
+  }
+
+  .idea-detail-inner {
+    padding: 0 16px 16px;
+  }
+
+  .idea-name {
+    font-size: 12px;
+    color: #6b6a5e;
+    margin-bottom: 10px;
+  }
+
+  .idea-thesis {
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--ink);
+    margin: 0 0 12px;
+  }
+
+  .fact-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .fact {
+    background: rgba(11,14,12,0.04);
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .fact-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #8c8a7c;
+    display: block;
+    margin-bottom: 3px;
+  }
+
+  .fact-text { color: #2e2d27; font-weight: 500; }
+
+  .case-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(11,14,12,0.1);
+  }
+
+  .case {
+    font-size: 12.5px;
+    line-height: 1.45;
+  }
+
+  .case-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .case.bull .case-label { color: var(--green); }
+  .case.bear .case-label { color: var(--rust); }
+  .case-text { color: #4a4940; }
+
+  .category-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #8c8a7c;
+    margin-top: 12px;
+  }
+
+  footer {
+    padding: 24px 20px calc(28px + env(safe-area-inset-bottom));
+    border-top: 1px solid var(--hairline);
+    margin-top: 8px;
+  }
+
+  .disclaimer {
+    font-size: 11.5px;
+    line-height: 1.5;
+    color: var(--caption);
+  }
+
+  .refresh-time {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--caption);
+    margin-top: 10px;
+  }
+
+  /* States */
+  .state-screen {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 30px;
+  }
+
+  .state-title {
+    font-family: 'Fraunces', serif;
+    font-size: 19px;
+    margin-bottom: 8px;
+  }
+
+  .state-text {
+    font-size: 13px;
+    color: var(--caption);
+    line-height: 1.5;
+    max-width: 280px;
+  }
+
+  .pulse {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--amber);
+    margin-bottom: 18px;
+    animation: pulse 1.4s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 0.3; transform: scale(0.9); }
+    50% { opacity: 1; transform: scale(1.1); }
+  }
+
+  .retry-btn {
+    margin-top: 18px;
+    background: var(--paper);
+    color: var(--ink);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pulse { animation: none; }
+  }
+
+  ::selection { background: var(--amber); color: var(--ink); }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="masthead-row">
+    <div class="masthead-title">The Morning Briefing</div>
+    <div class="masthead-date" id="masthead-date">—</div>
+  </div>
+  <div class="masthead-sub"><span class="status-dot"></span>Macro &amp; markets digest</div>
+</div>
+
+<main id="app">
+  <div class="state-screen">
+    <div class="pulse"></div>
+    <div class="state-title">Pulling today's briefing</div>
+    <div class="state-text">Fetching the latest digest…</div>
+  </div>
+</main>
+
+<script>
+// Set this to your published GitHub Pages data.json URL after deploying.
+// Example: https://yourusername.github.io/morning-digest/data.json
+const DATA_URL = 'data.json';
+
+const dotsForConviction = (level) => {
+  const filled = level === 'high' ? 3 : level === 'medium' ? 2 : 1;
+  let html = '';
+  for (let i = 0; i < 3; i++) {
+    html += `<span class="dot${i < filled ? ' filled' : ''}">●</span>`;
+  }
+  return html;
+};
+
+const fmtDate = (isoDateStr) => {
+  try {
+    const d = new Date(isoDateStr + 'T12:00:00Z');
+    return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }).toUpperCase();
+  } catch (e) {
+    return isoDateStr;
+  }
+};
+
+const fmtGeneratedTime = (isoStr) => {
+  try {
+    const d = new Date(isoStr);
+    return d.toLocaleString('en-US', {
+      month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short'
+    });
+  } catch (e) {
+    return isoStr;
+  }
+};
+
+// Build a short scannable takeaway from the thesis if one isn't provided directly.
+// Takes the first sentence, trims it to a reasonable length.
+function buildTakeaway(idea) {
+  if (idea.takeaway) return idea.takeaway;
+  const thesis = idea.thesis || '';
+  const firstSentence = thesis.split(/(?<=[.!?])\s/)[0] || thesis;
+  if (firstSentence.length <= 110) return firstSentence;
+  return firstSentence.slice(0, 107).trim() + '…';
+}
+
+function renderIdea(idea, index) {
+  const conviction = (idea.conviction || 'medium').toLowerCase();
+  const takeaway = buildTakeaway(idea);
+  const convictionWord = conviction === 'high' ? 'High conviction' : 'Medium conviction';
+
+  return `
+    <div class="idea-card" id="idea-${index}">
+      <button class="idea-summary" onclick="toggleIdea(${index})">
+        <div class="conviction-flag ${conviction}"></div>
+        <div class="idea-summary-main">
+          <div class="idea-top-row">
+            <span class="idea-ticker">${idea.ticker || '—'}</span>
+            <span class="idea-type-pill">${idea.type || ''}</span>
+          </div>
+          <div class="idea-takeaway">${takeaway}</div>
+        </div>
+        <div class="conviction-label">
+          <span class="conviction-word ${conviction}">${convictionWord}</span>
+        </div>
+        <span class="chevron">▾</span>
+      </button>
+      <div class="idea-detail">
+        <div class="idea-detail-inner">
+          <div class="idea-name">${idea.name || ''}</div>
+          <p class="idea-thesis">${idea.thesis || ''}</p>
+          ${(idea.catalyst || idea.edge) ? `
+          <div class="fact-row">
+            ${idea.catalyst ? `<div class="fact"><span class="fact-label">Catalyst</span><span class="fact-text">${idea.catalyst}</span></div>` : '<div></div>'}
+            ${idea.edge ? `<div class="fact"><span class="fact-label">Edge</span><span class="fact-text">${idea.edge}</span></div>` : '<div></div>'}
+          </div>` : ''}
+          <div class="case-row">
+            <div class="case bull">
+              <span class="case-label">Bull case</span>
+              <span class="case-text">${idea.bull_case || '—'}</span>
+            </div>
+            <div class="case bear">
+              <span class="case-label">Bear case</span>
+              <span class="case-text">${idea.bear_case || '—'}</span>
+            </div>
+          </div>
+          ${idea.category ? `<div class="category-tag">${idea.category.replace(/-/g, ' ')}</div>` : ''}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function toggleIdea(index) {
+  const card = document.getElementById(`idea-${index}`);
+  if (card) card.classList.toggle('open');
+}
+
+function renderDigest(digest) {
+  document.getElementById('masthead-date').textContent = fmtDate(digest.date);
+
+  const events = (digest.key_events || []).map(e => `<li>${e}</li>`).join('');
+  const ideaCount = (digest.ideas || []).length;
+  const ideas = ideaCount > 0
+    ? (digest.ideas || []).map(renderIdea).join('')
+    : `<div class="empty-ideas">No ideas cleared the high-conviction bar today. Quiet news days happen — check back tomorrow.</div>`;
+
+  document.getElementById('app').innerHTML = `
+    <div class="macro-card">
+      <p class="macro-summary">${digest.macro_summary || ''}</p>
+      ${events ? `<ul class="key-events">${events}</ul>` : ''}
+    </div>
+
+    <div class="ideas-header">
+      <div class="section-label">Today's highest conviction (${ideaCount})</div>
+      ${ideaCount > 0 ? '<div class="ideas-hint">Tap to expand</div>' : ''}
+    </div>
+    ${ideas}
+
+    <footer>
+      <p class="disclaimer">${digest.disclaimer || 'This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.'}</p>
+      <div class="refresh-time">Generated ${digest.generated_at ? fmtGeneratedTime(digest.generated_at) : '—'}</div>
+    </footer>
+  `;
+}
+
+function renderError(message) {
+  document.getElementById('app').innerHTML = `
+    <div class="state-screen">
+      <div class="state-title">Couldn't load today's briefing</div>
+      <div class="state-text">${message}</div>
+      <button class="retry-btn" onclick="location.reload()">Try again</button>
+    </div>
+  `;
+}
+
+fetch(DATA_URL, { cache: 'no-store' })
+  .then(res => {
+    if (!res.ok) throw new Error(`Data file returned ${res.status}`);
+    return res.json();
+  })
+  .then(renderDigest)
+  .catch(err => {
+    renderError('The digest hasn\'t been generated yet, or the data file moved. Pull down to refresh once the morning job has run.');
+    console.error(err);
+  });
+</script>
+
+</body>
+</html>

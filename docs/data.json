@@ -1,0 +1,67 @@
+{
+  "date": "2026-06-21",
+  "macro_summary": "Markets enter Sunday June 21 digesting two major macro events from the prior week: (1) The Fed's June 17 meeting \u2014 Chair Kevin Warsh's first \u2014 held rates at 3.50\u20133.75% but issued a hawkish dot-plot shift, with nine of eighteen officials now projecting at least one rate hike in 2026 and the median year-end funds rate moving to 3.8% from 3.4% in March, triggering a mid-week equity sell-off that was partially recovered Thursday-Friday. (2) The U.S. and Iran signed a memorandum of understanding on June 17 to end the conflict and reopen the Strait of Hormuz, sending WTI crude down roughly 15% from its June 10 level to ~$81/barrel \u2014 a meaningful deflationary impulse but one experts caution will take months to fully normalize. The week's busiest near-term catalysts are earnings: FedEx (FDX) reports Q4 FY2026 on June 23 and Micron (MU) reports fiscal Q3 on June 24, both after market close.",
+  "key_events": [
+    "Fed June 17 decision: rates held at 3.50\u20133.75%, unanimous 12-0 vote; dot-plot median shifts to 3.8% year-end, hike as early as October now priced by markets",
+    "Chair Warsh removes easing-bias language from statement; forms five internal Fed task forces; declines to submit own dot-plot projection",
+    "U.S.\u2013Iran MOU signed June 17 in Switzerland; Strait of Hormuz reopening underway; WTI crude down ~15.5% from June 10 high",
+    "Trump announces Apple\u2013Intel U.S. chip manufacturing agreement June 18; INTC surges 10.6%; neither company has formally confirmed",
+    "Intel discloses 18A-P next-gen node entered risk production at VLSI Symposium June 16",
+    "FedEx (FDX) Q4 FY2026 earnings: June 23 after close \u2014 first report post-Freight spin-off (FDXF listed June 1)",
+    "Micron (MU) fiscal Q3 2026 earnings: June 24 after close \u2014 company guided record revenue of ~$33.5B and ~81% gross margin",
+    "CPI at 4.2% YoY in May (highest since April 2023); PCE data due end of June; next FOMC meeting July 28\u201329",
+    "Nasdaq 100 futures trading near 30,647 this morning; market breadth still below early-2026 highs (~58% of S&P 500 above 50-day MA)"
+  ],
+  "ideas": [
+    {
+      "ticker": "MU",
+      "type": "stock",
+      "name": "Micron Technology, Inc.",
+      "thesis": "Micron reports fiscal Q3 2026 earnings on June 24 after close, and the company itself guided to record revenue of ~$33.5B (\u00b1$0.75B) and gross margin of approximately 81% \u2014 the highest in company history. The AI-driven HBM memory supercycle is the structural driver, with Micron transitioning from a commodity DRAM producer to a critical AI infrastructure component supplier. Goldman Sachs flagged tight DRAM supply and margin visibility as the two key Q3 themes.",
+      "catalyst": "Confirmed fiscal Q3 2026 earnings release: June 24, 2026 after market close (4:30 PM EDT), with analyst call at 6:00 PM EDT",
+      "edge": "Company guided Q3 EPS of $19.15 (\u00b1$0.40) and record ~$33.5B revenue; consensus FY26 EPS of $57.71 represents ~651% YoY growth from FY25's $7.68. Analyst price targets range from RBC's recently raised $1,200 (June 15) to Cantor Fitzgerald's Street-high $1,500, against a last-reported price near ~$949, implying 26%\u201358% upside to the analyst range midpoint.",
+      "bull_case": "HBM capacity is sold out well into 2027; record gross margins (~81%) validate Micron's pricing power in AI memory; if Q4 guidance extends sequential revenue growth and confirms DRAM bit-shipment growth in the low-twenties percent range, the stock re-rates further toward the analyst consensus target cluster.",
+      "bear_case": "If hyperscalers slow AI infrastructure spend or adopt more efficient model architectures, HBM demand could weaken before Micron's massive new capacity (FY26 CapEx >$25B) is fully absorbed, compressing margins faster than the Street models. Any guidance miss or HBM allocation commentary disappointing the Street could produce a sharp post-earnings reversal.",
+      "conviction": "high",
+      "category": "earnings-driven"
+    },
+    {
+      "ticker": "FDX",
+      "type": "stock",
+      "name": "FedEx Corporation",
+      "thesis": "FedEx reports Q4 FY2026 earnings on June 23 after close \u2014 the first report following the June 1 spin-off of FedEx Freight (FDXF) into a standalone public company. The post-separation FedEx is a leaner, higher-margin express and ground network, with the Network 2.0 cost-consolidation program delivering structural savings. Management already raised full-year FY26 adjusted EPS guidance to $19.30\u2013$20.10 (from $17.80\u2013$19.00) after Q3, and guided Q4 revenue growth of 6%\u20137.5%.",
+      "catalyst": "Confirmed Q4 FY2026 earnings release: June 23, 2026 after market close. This is the first earnings report as a pure-play express/ground company post-Freight spin-off, making FY27 guidance the market's key focus.",
+      "edge": "Consensus Q4 EPS estimate of ~$5.91\u2013$5.93; company's own midpoint guidance implies ~$5.80 adjusted, creating a modest but real beat setup. FY26 raised EPS midpoint of $19.70 puts the stock at a meaningful discount to peers on a post-spin forward P/E basis. Freight spin-off also unlocked a retained 19.9% stake in FDXF that FedEx plans to monetize via debt exchange or dividends within 24 months \u2014 a hidden value component not fully in consensus.",
+      "bull_case": "If FY27 guidance is delivered with continued Network 2.0 margin improvement and strong FEC (FedEx Express + Ground) volume trends, the market can re-rate FDX as a focused, higher-quality operator. The Iran deal reducing fuel costs is an incremental tailwind for express delivery economics in H2 2026.",
+      "bear_case": "One-time costs associated with the spin-off (separation charges, fleet adjustments) could cloud Q4 GAAP results and spook less-sophisticated readers. A soft macro or trade-policy-driven volume outlook for FY27 could cap the re-rating. The 19.9% stake in FDXF creates an overhang until fully monetized.",
+      "conviction": "high",
+      "category": "earnings-driven"
+    },
+    {
+      "ticker": "INTC",
+      "type": "stock",
+      "name": "Intel Corporation",
+      "thesis": "On June 18, President Trump announced that Apple has agreed to work with Intel to design and manufacture chips in the U.S. \u2014 a foundry credibility inflection for Intel's long-struggling IFS (Intel Foundry Services) division. The same week, Intel disclosed its next-generation 18A-P node entered risk production at the VLSI Symposium on June 16, providing a second concurrent technology catalyst. An Apple relationship \u2014 even a limited one \u2014 validates Intel's 18A process to other potential clients in a way no marketing effort could.",
+      "catalyst": "Trump announced Apple\u2013Intel U.S. chip manufacturing agreement on June 18, 2026; 18A-P node entered risk production June 16, 2026. Neither company has issued formal confirmation of deal terms, so a formal Apple confirmation (or denial) is the next binary event.",
+      "edge": "Intel stock surged 10.6% on June 18 and is up ~464% over the trailing 12 months. The U.S. government holds a ~10% equity stake in Intel, aligning policy support with commercial success. However, the quantifiable edge is constrained by the absence of formal deal confirmation \u2014 no revenue figures, ASP terms, or volume commitments have been disclosed, which prevents a clean price-target gap calculation.",
+      "bull_case": "An Apple contract validates Intel's 18A process technology to hyperscalers and fabless designers globally, potentially unlocking a multi-year foundry revenue stream. With the U.S. government as a 10% shareholder and CHIPS Act tailwinds, Intel benefits from a policy moat that competitors cannot easily replicate.",
+      "bear_case": "Neither Apple nor Intel has formally confirmed the agreement; Trump's Truth Social post is the sole sourcing, and past instances of unconfirmed announcements have unwound. Intel's foundry division has historically struggled on yield and reliability versus TSMC, and Apple's exploratory discussions with Samsung suggest no exclusivity. If the deal proves smaller or slower than implied, the stock could give back Thursday's gains.",
+      "conviction": "medium",
+      "category": "sector-driven"
+    },
+    {
+      "ticker": "JETS",
+      "type": "etf",
+      "name": "U.S. Global Jets ETF",
+      "thesis": "The U.S.\u2013Iran MOU signed June 17 is reopening the Strait of Hormuz, which had been closed since late February \u2014 the largest oil supply disruption in history per the IEA. Jet fuel had surged 121% year-over-year by April 2026, and IATA had slashed the 2026 global airline net profit forecast to $23B from $45B, citing a $100B collective fuel cost headwind. With WTI now ~$81/barrel and heading lower as Gulf supply returns, the structural margin headwind that dominated H1 2026 for airlines is beginning to reverse. The JETS ETF neared a new 52-week high for the year in the week of the Iran deal announcement.",
+      "catalyst": "Strait of Hormuz reopening following June 17 MOU; mine clearance and tanker transit resumption underway. Near-term confirmatory catalysts include first Gulf tanker transits being reported and any upward EPS revisions from major carriers (Delta, United, American) as fuel cost assumptions roll down.",
+      "edge": "IATA's pre-deal 2026 profit forecast implied a ~49% YoY profit decline for the global airline industry; even a partial normalization of jet fuel costs toward pre-war levels substantially restores earnings power. Heating oil (jet fuel proxy) fell 3.5%+ on June 15 alone. However, experts caution jet fuel relief will arrive gradually over Q3\u2013Q4 2026, meaning much of the near-term good news may already be in the price following last week's rally.",
+      "bull_case": "If oil prices continue declining toward the low-$70s as Iranian supply returns and OPEC+ production normalizes, airline fuel costs could recover toward pre-war levels by Q4 2026, driving significant upward EPS revisions across the sector. Travel demand remains resilient throughout the disruption, so volume is not impaired.",
+      "bear_case": "The June 17 MOU is a 60-day framework, not a permanent peace agreement; if the ceasefire breaks down or Iran delays Hormuz reopening, jet fuel costs remain elevated and last week's rally fully reverses. Refinery capacity in the Middle East was damaged during the conflict and may take months to come back online regardless of the geopolitical settlement, capping near-term jet fuel relief.",
+      "conviction": "medium",
+      "category": "macro-driven"
+    }
+  ],
+  "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
+  "generated_at": "2026-06-21T22:05:17.490561+00:00"
+}
