@@ -1,53 +1,53 @@
 {
   "date": "2026-06-22",
-  "macro_summary": "US equity futures are softer this Monday morning \u2014 S&P futures -0.28%, Nasdaq futures -0.32%, Dow futures -0.17% \u2014 as geopolitical risk re-emerges on the first day of US-Iran talks: Trump threatened fresh strikes and Tehran briefly suspended negotiations, driving crude oil up ~1.45% to ~$77/barrel. The dominant macro backdrop remains a hawkish Federal Reserve: Chair Kevin Warsh's inaugural June 17 FOMC meeting produced a unanimous hold at 3.5\u20133.75%, but the dot plot now shows 9 of 18 officials penciling in at least one rate hike by year-end, with markets pricing the first move as early as October. This week is data-dense and event-rich: Carnival (CCL) and FedEx (FDX) report Tuesday, Micron (MU) and Fed bank stress test results land Wednesday, and May PCE \u2014 the Fed's preferred inflation gauge \u2014 prints Thursday. Today itself is quiet on scheduled data, making it a positioning day ahead of a heavy mid-week.",
+  "macro_summary": "US equity futures are modestly softer (-0.2% S&P) as markets return from the Juneteenth holiday and absorb a hawkish post-FOMC hangover: Chair Warsh's first meeting ended with a unanimous hold at 3.5%-3.75% but nine of 18 dot-plot participants now project at least one rate hike by year-end, pushing the 2-year Treasury yield to a new cycle high above 4.22% Monday morning. Geopolitical risk remains binary \u2014 an interim US-Iran ceasefire has reopened the Strait of Hormuz and eased oil from its $113 peak to ~$78-80/bbl, but weekend talks in B\u00fcrgenstock were abruptly postponed and a final deal remains 60 days away at best. This week is data-rich and catalyst-dense: FedEx earnings Tuesday, Micron earnings and Fed bank stress tests Wednesday, and the critical May PCE inflation print (Fed's preferred measure) on Wednesday June 25 \u2014 all against the backdrop of a June 30 copper tariff deadline.",
   "key_events": [
-    "US-Iran talks begin Monday; Trump threatened strikes, Tehran briefly suspended talks \u2014 crude oil +1.45% to ~$77/bbl, futures lower",
-    "Fed (June 17): Held rates at 3.5\u20133.75% unanimously; dot plot shifts hawkish \u2014 9/18 officials see at least one hike in 2026; median year-end FFR projection 3.8%; market pricing Oct hike",
-    "INTC surged ~10.5% Thursday after Trump Truth Social post claiming Apple-Intel US chip deal; deal remains preliminary/unconfirmed by both companies",
-    "Micron (MU) reports fiscal Q3 2026 earnings Wednesday June 24 after close \u2014 consensus ~$34.7B revenue / ~$19.95 EPS",
-    "Fed 2026 bank stress test results for 32 large banks due Wednesday June 24 at 4pm ET \u2014 Fed confirmed results will NOT affect 2026 capital requirements",
-    "May PCE price index (Fed's preferred inflation gauge) releases Thursday June 25 \u2014 April PCE was 3.77% YoY headline, 3.29% core; prior core PCE 3.3% in April vs 2% Fed target",
-    "Q1 GDP final estimate and May durable goods orders also due Thursday June 25"
+    "FDX (FedEx) Q4 FY2026 earnings after close Tuesday June 23 \u2014 first print post-Freight spin-off",
+    "MU (Micron) fiscal Q3 2026 earnings after close Wednesday June 24 \u2014 options pricing ~17% move",
+    "Fed bank stress test results released Wednesday June 24",
+    "May PCE Price Index (Fed's preferred inflation gauge) released Wednesday June 25 \u2014 last read was 3.8% YoY headline / 3.3% core",
+    "Q1 GDP final estimate also due June 25",
+    "Commerce Dept Section 232 copper tariff recommendation due to President by June 30",
+    "US-Iran peace talks: 60-day roadmap agreed, but substantive issues (nuclear program) excluded; Hormuz partially reopened"
   ],
   "ideas": [
     {
       "ticker": "MU",
       "type": "stock",
       "name": "Micron Technology, Inc.",
-      "thesis": "Micron reports fiscal Q3 2026 earnings Wednesday June 24 after close, with Wall Street unanimously bullish and HBM memory capacity described as fully sold out. The company's Q2 print already crushed consensus by ~42% (reported $12.20 EPS vs $8.60 expected), and management guided Q3 to record revenue of $33.5B \u00b1$0.75B with ~81% gross margin \u2014 a figure the street has now exceeded to ~$34.7B. The AI-driven demand for High Bandwidth Memory (HBM) is structurally different from prior DRAM cycles, with UBS noting long-term volume and pricing agreements locked in with major hyperscaler customers.",
-      "catalyst": "Fiscal Q3 2026 earnings report Wednesday June 24, 2026 after market close \u2014 with Q4 guidance and HBM4 allocation commentary as the key swing factors for the stock",
-      "edge": "Stock trades at ~17x forward earnings despite ~300% YTD gain; prior quarter beat consensus by ~42%; company guided Q3 EPS to ~$19.15 midpoint vs street at ~$19.95 \u2014 street already above guide, leaving room for further upside surprise. Full-year FY2026 EPS consensus ~$57.71, up ~651% YoY. Deutsche Bank and TD Cowen targets at $1,500; Morgan Stanley at $1,050.",
-      "bull_case": "A third consecutive massive earnings beat plus strong Q4 guidance \u2014 especially on HBM4 volume and margin sustainability above 81% \u2014 could drive another leg higher. Long-term pricing agreements (LTAs) are transforming MU's business model from cyclical to secular growth, supporting a durable re-rating.",
-      "bear_case": "Expectations are now extremely elevated after a ~300% YTD run; any miss on Q4 revenue guidance, margin compression hint, or commentary suggesting hyperscaler AI capex pullback could trigger a sharp selloff. SK Hynix holds ~62% HBM market share and is ahead of Micron on per-pin speed in HBM4.",
+      "thesis": "Micron reports fiscal Q3 2026 results on June 24 after the close, at what may be the most anticipated semiconductor print of the year. The company has structurally re-rated from cyclical memory maker to AI infrastructure play, with its entire 2026 HBM (high-bandwidth memory) capacity fully sold out, management guiding to a record ~81% gross margin in Q3 (up from 74.4% in Q2 and 36.8% a year ago), and consensus EPS implying ~$19.95 vs. $1.56 in the year-ago quarter. Last quarter's Q2 beat was 42% above the estimate ($12.20 vs. $8.60 expected), establishing a strong pattern of upside surprises. The options market is pricing roughly a 17% move in either direction \u2014 confirming this is a high-stakes, high-information event.",
+      "catalyst": "Fiscal Q3 2026 earnings after close Wednesday June 24, 2026 \u2014 covering the March-May quarter; FY2027 guidance and HBM4 volume commentary are the key swing factors",
+      "edge": "Consensus EPS ~$19.95 on $34.7B revenue; prior quarter beat by ~42% ($12.20 actual vs. $8.60 est.); analyst targets range from ~$400 (Goldman bear case) to $1,625 (UBS bull); MU closed at an all-time high of ~$1,134 on June 18; options-implied move of ~17% post-print implies a settlement range of ~$940-$1,327",
+      "bull_case": "HBM4 demand from NVIDIA's Vera Rubin platform is locked in, gross margins break 80%, management raises Q4 guidance above the ~$39.6B analyst estimate, and the stock re-rates further toward Cantor Fitzgerald's $1,500 target as the 'secular grower' thesis solidifies.",
+      "bear_case": "The stock enters at an all-time high priced for perfection; Goldman Sachs maintains a ~$400 target arguing margins are a cyclical peak, not a floor; synchronized capex expansion by SK Hynix and Samsung could produce oversupply in 2027-2028, and any soft guidance or miss on HBM commentary could trigger the full ~17% downside implied by options.",
       "conviction": "high",
       "category": "earnings-driven"
     },
     {
-      "ticker": "INTC",
+      "ticker": "FDX",
       "type": "stock",
-      "name": "Intel Corporation",
-      "thesis": "Intel has accumulated a rare cluster of catalysts in one week: Trump's June 18 Truth Social post claiming Apple agreed to work with Intel to build chips in the US, and Intel's own announcement that its 18A-P node (promising 9% higher performance or 18% lower power vs. 18A) entered risk production at its Arizona fab. Intel CEO Lip-Bu Tan has guided for multiple foundry customer commitments in the second half of 2026. The Apple arrangement, if formalized, would validate Intel's foundry credibility to other potential customers and support a continued re-rating.",
-      "catalyst": "Expected formal foundry customer commitments from Intel CEO Lip-Bu Tan in H2 2026; 18A-P node qualification milestones; any official Apple or Intel SEC disclosure confirming the manufacturing deal",
-      "edge": "Stock surged ~464% in the past 12 months and ~200%+ YTD, with the PHLX Semiconductor Sector Index up ~90% YTD; the US government holds a ~10% equity stake (valued at ~$60B+). However, both Apple and Intel have declined to formally confirm the deal, meaning the quantifiable upside from here depends on contract execution rather than announcement. Risk/reward is less clear post-pop \u2014 flagged as medium accordingly.",
-      "bull_case": "A formal Apple foundry commitment in H2 2026 would be the first major outside customer for Intel's advanced nodes, validating the 18A/18A-P platform and unlocking additional Nvidia, SpaceX, and other hyperscaler relationships the Trump administration is reportedly encouraging.",
-      "bear_case": "The deal remains 'preliminary' with no confirmed devices, volumes, or timeline; Apple analyst Ben Bajarin noted Apple will likely wait for 18A-P and that Intel 'has not done' Arm chip manufacturing \u2014 a major technical gap vs. TSMC. A failure to land signed contracts by year-end could reverse the stock's premium valuation.",
-      "conviction": "medium",
-      "category": "sector-driven"
+      "name": "FedEx Corporation",
+      "thesis": "FedEx reports Q4 FY2026 earnings after the close Tuesday June 23 \u2014 the first quarterly print as a streamlined pure-play parcel company following the June 1 IPO spin-off of FedEx Freight. The stock has already outperformed (+40% YTD, +80% over 52 weeks), but Bernstein's David Vernon argues the market is still undervaluing the sum-of-parts: he estimates ~$55-60/share in excess cash plus ~$20/share from the retained 19.9% Freight stake, implying FDX trades at just ~10.7x standalone forward earnings vs. a broader industrials multiple. The company has beaten EPS estimates in each of the last four quarters, most recently by a wide margin (+27.7% surprise in Q2).",
+      "catalyst": "Q4 FY2026 earnings after close Tuesday June 23, 2026 \u2014 key watch items are FY2027 guidance (first full year ex-Freight), Network 2.0 cost savings progress (targeting $2B cumulative by 2027), and Amazon partnership volume commentary",
+      "edge": "Bernstein price target $424, average analyst target ~$407-412 vs. ~$336 current price = ~25-30% implied upside; trades at ~10.7x forward earnings (Bernstein estimate); 17 of 21 analysts rate it Strong Buy; options pricing ~7.7% move at print; FY2026 adjusted EPS guidance raised to $19.30-$20.10 (from $17.80-$19.00)",
+      "bull_case": "Network 2.0 savings ramp faster than expected, Amazon partnership volumes accelerate (aided by UPS ceding market share), FY2027 guidance comes in above the ~$22 consensus EPS, and the Freight stake is monetized at a premium \u2014 all of which would close the 25%+ gap to analyst targets.",
+      "bear_case": "Morgan Stanley's Ravi Shanker trimmed his target to $160 citing margin headwinds, post-spin reporting opacity (full segment disclosure not until late October), and MD-11 fleet grounding costs (~$55M impact in Q4). The stock is already near 52-week highs so any soft guidance on FY2027 would punish it disproportionately.",
+      "conviction": "high",
+      "category": "earnings-driven"
     },
     {
-      "ticker": "CCL",
+      "ticker": "FCX",
       "type": "stock",
-      "name": "Carnival Corporation & plc",
-      "thesis": "Carnival reports fiscal Q2 2026 earnings Tuesday June 23, coming off a record Q1 where it beat estimates, raised full-year guidance, announced a $2.5B share buyback, and introduced its 'PROPEL' long-term targets through 2029. Q1 net yields hit record highs and 2026 bookings are up double digits at historically high prices. Oil prices falling from their Iran-war spike peak (Strait of Hormuz reopened via interim peace deal) reduces a key headwind for cruise fuel costs. The setup is a strong fundamental momentum story into a near-term earnings print.",
-      "catalyst": "Fiscal Q2 2026 earnings release Tuesday June 23, 2026 \u2014 with forward bookings commentary, yield guidance for H2 2026, and fuel cost update as key swing variables",
-      "edge": "Company targets $7B in adjusted EBITDA for full-year 2026; Q1 EPS was $0.20, up 50% YoY, beating guidance on strong close-in demand; the newly announced $2.5B buyback provides a floor. Declining oil prices vs. Q1 fuel cost assumptions create potential for a guidance raise on fuel savings. No specific analyst price-target gap confirmed \u2014 flagged as medium.",
-      "bull_case": "A Q2 beat-and-raise fueled by continued record bookings, easing fuel costs post-Iran peace deal, and strong close-in demand could re-accelerate the stock and validate the PROPEL 2029 growth framework.",
-      "bear_case": "Consumer spending durability is uncertain in a hawkish rate environment where the Fed is signaling possible hikes; elevated inflation (CPI 4.17% YoY in May) pressures discretionary travel spending. Any softening of forward booking commentary would disappoint given elevated expectations.",
+      "name": "Freeport-McMoRan Inc.",
+      "thesis": "The Commerce Secretary must deliver a Section 232 copper tariff recommendation to President Trump by June 30 \u2014 a binary, dated policy catalyst now 8 days away. FCX is the largest US-listed copper producer and the most direct domestic equity beneficiary of tariff protection: domestic producers face no import duty while foreign competitors would face a proposed 15% starting January 2027 rising to 30% in 2028. LME copper is already near record highs (+10% YTD) and the COMEX-LME spread has widened to ~$400/t, reflecting pre-positioning. Jefferies specifically named FCX as a top beneficiary of a US tariff regime.",
+      "catalyst": "Commerce Dept Section 232 copper tariff recommendation due to President Trump by June 30, 2026 \u2014 a hard statutory deadline; Jefferies named FCX as a direct beneficiary",
+      "edge": "LME copper near record highs, up ~10% YTD; COMEX-LME spread at ~$400/t signals ongoing tariff pre-positioning; ING forecasts a ~35kt global copper deficit in 2026 (tightest in 15 years per Goldman); Morgan Stanley assigns a 43% probability to a phased tariff starting at 15% in Jan 2027. FCX generates meaningful leverage to copper price: every $0.10/lb move in copper price is estimated at ~$130-140M in annual EBITDA.",
+      "bull_case": "Commerce Dept recommends a phased refined copper tariff; FCX's US-mined output faces no duty while Chilean/African imports do, improving relative economics; renewed stockpiling accelerates into year-end and copper price gaps higher.",
+      "bear_case": "The outcome is binary and the July 2025 precedent (when a 50% tariff was feared but refined copper was carved out entirely) shows Trump can surprise to the downside; a delay or rejection would trigger rapid COMEX inventory unwind and narrow the US copper premium, pressuring FCX alongside the rest of the sector.",
       "conviction": "medium",
-      "category": "earnings-driven"
+      "category": "macro-driven"
     }
   ],
   "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
-  "generated_at": "2026-06-22T05:03:49.918617+00:00"
+  "generated_at": "2026-06-22T13:01:43.182474+00:00"
 }
