@@ -1,55 +1,53 @@
 {
   "date": "2026-06-22",
-  "macro_summary": "US equity futures are lower to start the week as US-Iran peace talks hit a fresh snag on their first day, with oil prices rising and President Trump threatening further military action \u2014 reopening Strait of Hormuz uncertainty. The dominant macro overhang remains the Fed: Chair Warsh's inaugural FOMC meeting last week resulted in a hold at 3.5%-3.75%, but with nine of 18 officials now penciling in at least one rate hike in 2026 and the easing bias stripped from the statement, the rate-cut narrative is dead. The week's decisive data event is May PCE (the Fed's preferred inflation gauge) due Thursday, June 25 \u2014 a hot print could materially reprice hike odds and hit rate-sensitive equities. Today's calendar is light, making it a setup week rather than an action week; the highest-conviction near-term events are the Micron and FedEx earnings prints on Wednesday and Tuesday nights respectively.",
+  "macro_summary": "US equity futures are softer this Monday morning \u2014 S&P futures -0.28%, Nasdaq futures -0.32%, Dow futures -0.17% \u2014 as geopolitical risk re-emerges on the first day of US-Iran talks: Trump threatened fresh strikes and Tehran briefly suspended negotiations, driving crude oil up ~1.45% to ~$77/barrel. The dominant macro backdrop remains a hawkish Federal Reserve: Chair Kevin Warsh's inaugural June 17 FOMC meeting produced a unanimous hold at 3.5\u20133.75%, but the dot plot now shows 9 of 18 officials penciling in at least one rate hike by year-end, with markets pricing the first move as early as October. This week is data-dense and event-rich: Carnival (CCL) and FedEx (FDX) report Tuesday, Micron (MU) and Fed bank stress test results land Wednesday, and May PCE \u2014 the Fed's preferred inflation gauge \u2014 prints Thursday. Today itself is quiet on scheduled data, making it a positioning day ahead of a heavy mid-week.",
   "key_events": [
-    "US-Iran peace talks resume but stumble on Day 1; oil pops, US futures lower",
-    "Trump threatens fresh strikes on Hezbollah; Strait of Hormuz reopening remains fragile",
-    "Fed hold at 3.5%-3.75% now fully digested; dot plot signals hike risk by year-end 2026",
-    "Warsh removes easing bias from FOMC statement; 2-yr Treasury yields at 1-yr highs",
-    "May PCE inflation print due Thursday June 25 \u2014 critical read for rate trajectory",
-    "FedEx (FDX) Q4 FY2026 earnings after close Tuesday June 23",
-    "Micron (MU) Q3 FY2026 earnings after close Wednesday June 24",
-    "Intel (INTC) +10.6% last Thursday on Trump-announced Apple foundry deal; stock now above consensus analyst target",
-    "No major US economic data scheduled for today (Monday June 22)"
+    "US-Iran talks begin Monday; Trump threatened strikes, Tehran briefly suspended talks \u2014 crude oil +1.45% to ~$77/bbl, futures lower",
+    "Fed (June 17): Held rates at 3.5\u20133.75% unanimously; dot plot shifts hawkish \u2014 9/18 officials see at least one hike in 2026; median year-end FFR projection 3.8%; market pricing Oct hike",
+    "INTC surged ~10.5% Thursday after Trump Truth Social post claiming Apple-Intel US chip deal; deal remains preliminary/unconfirmed by both companies",
+    "Micron (MU) reports fiscal Q3 2026 earnings Wednesday June 24 after close \u2014 consensus ~$34.7B revenue / ~$19.95 EPS",
+    "Fed 2026 bank stress test results for 32 large banks due Wednesday June 24 at 4pm ET \u2014 Fed confirmed results will NOT affect 2026 capital requirements",
+    "May PCE price index (Fed's preferred inflation gauge) releases Thursday June 25 \u2014 April PCE was 3.77% YoY headline, 3.29% core; prior core PCE 3.3% in April vs 2% Fed target",
+    "Q1 GDP final estimate and May durable goods orders also due Thursday June 25"
   ],
   "ideas": [
     {
       "ticker": "MU",
       "type": "stock",
       "name": "Micron Technology, Inc.",
-      "thesis": "Micron reports fiscal Q3 2026 earnings Wednesday June 24 after close \u2014 the single highest-stakes semiconductor print of the week. The company guided Q3 to record revenue of ~$33.5B and ~81% gross margin, and the Street has been steadily ratcheting estimates higher into the print. Micron's Q2 beat was extraordinary: revenue up 196% YoY, EPS of $12.20 beating consensus by 33% \u2014 its largest beat in nearly three years. The AI HBM memory cycle is the core driver, with Micron's entire HBM3E capacity reported as sold out through the end of 2026 and long-term volume agreements now signed with the majority of core hyperscaler customers.",
-      "catalyst": "Q3 FY2026 earnings report after market close on Wednesday June 24, 2026 \u2014 confirmed date. Key watch items: HBM4 allocation commentary, Q4 guidance, and any FY2027 CAPEX/margin signals.",
-      "edge": "Consensus Q3 EPS estimate ~$19.72-$19.95 on ~$34.4-34.7B revenue. Company's own guidance midpoint implies ~$19.15 EPS \u2014 meaning Street is already above guidance, yet the last two quarters saw 33%+ and 27%+ surprise beats. Full-year FY2026 EPS now projected at ~$57.71, up 651% from FY2025's $7.68. FY2027 P/E trades below 10x at current price (~$1,134). TD Cowen price target $1,500; Aletheia Capital $1,600 \u2014 implying 32-41% upside from last close. Options volatility elevated ahead of print per Seeking Alpha screener.",
-      "bull_case": "If Micron delivers another outsized beat and raises Q4 guidance above consensus, with HBM4 allocation secured into 2027, the stock could re-rate sharply higher as FY2027 sub-10x P/E becomes the anchor. Long-term pricing agreements transform Micron from a cyclical to a secular growth story in the market's eyes.",
-      "bear_case": "The stock is up ~297% YTD and trades at 185% above GuruFocus intrinsic value. Any guidance miss, softening in HBM demand from hyperscalers (e.g. AI efficiency gains reducing memory requirements), or compression of 81% gross margins would hit a very stretched valuation hard. SK Hynix holds ~62% HBM market share and remains ahead on per-pin HBM4 speed. Heavy insider selling ($92.5M in past 3 months) is an additional caution flag.",
+      "thesis": "Micron reports fiscal Q3 2026 earnings Wednesday June 24 after close, with Wall Street unanimously bullish and HBM memory capacity described as fully sold out. The company's Q2 print already crushed consensus by ~42% (reported $12.20 EPS vs $8.60 expected), and management guided Q3 to record revenue of $33.5B \u00b1$0.75B with ~81% gross margin \u2014 a figure the street has now exceeded to ~$34.7B. The AI-driven demand for High Bandwidth Memory (HBM) is structurally different from prior DRAM cycles, with UBS noting long-term volume and pricing agreements locked in with major hyperscaler customers.",
+      "catalyst": "Fiscal Q3 2026 earnings report Wednesday June 24, 2026 after market close \u2014 with Q4 guidance and HBM4 allocation commentary as the key swing factors for the stock",
+      "edge": "Stock trades at ~17x forward earnings despite ~300% YTD gain; prior quarter beat consensus by ~42%; company guided Q3 EPS to ~$19.15 midpoint vs street at ~$19.95 \u2014 street already above guide, leaving room for further upside surprise. Full-year FY2026 EPS consensus ~$57.71, up ~651% YoY. Deutsche Bank and TD Cowen targets at $1,500; Morgan Stanley at $1,050.",
+      "bull_case": "A third consecutive massive earnings beat plus strong Q4 guidance \u2014 especially on HBM4 volume and margin sustainability above 81% \u2014 could drive another leg higher. Long-term pricing agreements (LTAs) are transforming MU's business model from cyclical to secular growth, supporting a durable re-rating.",
+      "bear_case": "Expectations are now extremely elevated after a ~300% YTD run; any miss on Q4 revenue guidance, margin compression hint, or commentary suggesting hyperscaler AI capex pullback could trigger a sharp selloff. SK Hynix holds ~62% HBM market share and is ahead of Micron on per-pin speed in HBM4.",
       "conviction": "high",
       "category": "earnings-driven"
     },
     {
-      "ticker": "FDX",
+      "ticker": "INTC",
       "type": "stock",
-      "name": "FedEx Corporation",
-      "thesis": "FedEx reports Q4 FY2026 earnings after close Tuesday June 23 \u2014 the first quarterly print following the June 1 completion of the FedEx Freight spin-off (FDXF). This is a structural inflection point: the leaner, Express-focused FedEx enters FY2027 with its Network 2.0 transformation targeting over $2B in permanent cost savings by 2029. Management raised full-year EPS guidance to $19.30-$20.10 after last quarter's 27% beat. The Zacks Earnings ESP is +3.76% (most-accurate estimate above consensus), and FedEx has beaten EPS estimates in each of its last four quarters.",
-      "catalyst": "Q4 FY2026 earnings after market close Tuesday June 23, 2026 \u2014 confirmed. Key focus: FY2027 guidance under the new post-Freight structure, and the monetization timeline for FedEx's retained 19.9% FDXF stake.",
-      "edge": "FedEx has beaten consensus EPS in 4 consecutive quarters, with the Q3 beat coming in at +26.81% ($5.25 actual vs $4.09 expected). The Zacks Most Accurate Estimate is above consensus, yielding a +3.76% ESP \u2014 historically a strong predictor of beats. FY2027 EPS consensus is $22.04, implying ~11.8% growth. Stock up ~80% over 52 weeks, outperforming the S&P 500's ~31% and XLI's ~34% by wide margins \u2014 driven by Network 2.0 savings credibility rather than just macro tailwinds.",
-      "bull_case": "A clean beat plus upside FY2027 guidance \u2014 specifically evidence that Network 2.0 savings are tracking ahead of schedule and Express margins are expanding \u2014 could re-rate the stock as investors gain clarity on the standalone economics of the slimmer FDX.",
-      "bear_case": "The stock is trading near its 52-week high after a massive run, meaning expectations are elevated and a 'sell the news' reaction is plausible even on a moderate beat. Q4 EPS is already expected to decline ~2.6% YoY due to spin-off costs and the MD-11 fleet grounding (~$55M Q4 headwind). Any revenue miss or cautious FY2027 language \u2014 especially citing Middle East volume softness \u2014 could pressure shares meaningfully from current levels.",
+      "name": "Intel Corporation",
+      "thesis": "Intel has accumulated a rare cluster of catalysts in one week: Trump's June 18 Truth Social post claiming Apple agreed to work with Intel to build chips in the US, and Intel's own announcement that its 18A-P node (promising 9% higher performance or 18% lower power vs. 18A) entered risk production at its Arizona fab. Intel CEO Lip-Bu Tan has guided for multiple foundry customer commitments in the second half of 2026. The Apple arrangement, if formalized, would validate Intel's foundry credibility to other potential customers and support a continued re-rating.",
+      "catalyst": "Expected formal foundry customer commitments from Intel CEO Lip-Bu Tan in H2 2026; 18A-P node qualification milestones; any official Apple or Intel SEC disclosure confirming the manufacturing deal",
+      "edge": "Stock surged ~464% in the past 12 months and ~200%+ YTD, with the PHLX Semiconductor Sector Index up ~90% YTD; the US government holds a ~10% equity stake (valued at ~$60B+). However, both Apple and Intel have declined to formally confirm the deal, meaning the quantifiable upside from here depends on contract execution rather than announcement. Risk/reward is less clear post-pop \u2014 flagged as medium accordingly.",
+      "bull_case": "A formal Apple foundry commitment in H2 2026 would be the first major outside customer for Intel's advanced nodes, validating the 18A/18A-P platform and unlocking additional Nvidia, SpaceX, and other hyperscaler relationships the Trump administration is reportedly encouraging.",
+      "bear_case": "The deal remains 'preliminary' with no confirmed devices, volumes, or timeline; Apple analyst Ben Bajarin noted Apple will likely wait for 18A-P and that Intel 'has not done' Arm chip manufacturing \u2014 a major technical gap vs. TSMC. A failure to land signed contracts by year-end could reverse the stock's premium valuation.",
       "conviction": "medium",
-      "category": "earnings-driven"
+      "category": "sector-driven"
     },
     {
-      "ticker": "TBT",
-      "type": "etf",
-      "name": "ProShares UltraShort 20+ Year Treasury ETF",
-      "thesis": "The macro backdrop has shifted decisively hawkish: the Fed stripped its easing bias last week, nine of 18 FOMC members now project at least one rate hike in 2026, the 2-year Treasury yield hit its highest level in over a year, and the Fed raised its own 2026 inflation forecast to 3.6% headline / 3.3% core. Thursday's May PCE print \u2014 with the prior reading at 3.8% YoY and CPI already at 4.2% in May \u2014 is the next live trigger. A hot PCE would further cement hike expectations and push long-end yields higher, directly benefiting a leveraged short-Treasury position. TBT (2x inverse long-dated Treasuries) is the simplest liquid expression of this rate-risk hedge.",
-      "catalyst": "May PCE inflation data release Thursday June 25, 2026. The Fed's own updated projections show median year-end funds rate at 3.8% \u2014 above current levels \u2014 signaling at least one hike is on the table. Next FOMC meeting is the next discrete decision point.",
-      "edge": "CME FedWatch shows zero rate cuts priced for 2026 \u2014 a complete reversal from expectations of two cuts at the start of the year. Former Fed officials surveyed by Hilsenrath found 17 of 32 believe a hike is appropriate in 2026, with a median PCE forecast of 3.5% for year-end vs the Fed's 2% target. TBT benefits from yield curve repricing if PCE prints above consensus; the 2-yr note is already at a 1-yr high, and further inflation surprise has asymmetric upside for this instrument.",
-      "bull_case": "A hot May PCE (above 3.8% YoY) combined with ongoing Middle East energy uncertainty could force the market to price in a 2026 hike more aggressively, pushing long-end yields higher and delivering a meaningful TBT gain over a 1-2 week window around the data release.",
-      "bear_case": "If PCE comes in softer than feared \u2014 helped by declining gasoline prices following the partial Strait of Hormuz reopening \u2014 the bond market could rally sharply, punishing leveraged short-Treasury positions. TBT also has significant daily compounding decay risk as a 2x instrument, making it a poor multi-month hold.",
+      "ticker": "CCL",
+      "type": "stock",
+      "name": "Carnival Corporation & plc",
+      "thesis": "Carnival reports fiscal Q2 2026 earnings Tuesday June 23, coming off a record Q1 where it beat estimates, raised full-year guidance, announced a $2.5B share buyback, and introduced its 'PROPEL' long-term targets through 2029. Q1 net yields hit record highs and 2026 bookings are up double digits at historically high prices. Oil prices falling from their Iran-war spike peak (Strait of Hormuz reopened via interim peace deal) reduces a key headwind for cruise fuel costs. The setup is a strong fundamental momentum story into a near-term earnings print.",
+      "catalyst": "Fiscal Q2 2026 earnings release Tuesday June 23, 2026 \u2014 with forward bookings commentary, yield guidance for H2 2026, and fuel cost update as key swing variables",
+      "edge": "Company targets $7B in adjusted EBITDA for full-year 2026; Q1 EPS was $0.20, up 50% YoY, beating guidance on strong close-in demand; the newly announced $2.5B buyback provides a floor. Declining oil prices vs. Q1 fuel cost assumptions create potential for a guidance raise on fuel savings. No specific analyst price-target gap confirmed \u2014 flagged as medium.",
+      "bull_case": "A Q2 beat-and-raise fueled by continued record bookings, easing fuel costs post-Iran peace deal, and strong close-in demand could re-accelerate the stock and validate the PROPEL 2029 growth framework.",
+      "bear_case": "Consumer spending durability is uncertain in a hawkish rate environment where the Fed is signaling possible hikes; elevated inflation (CPI 4.17% YoY in May) pressures discretionary travel spending. Any softening of forward booking commentary would disappoint given elevated expectations.",
       "conviction": "medium",
-      "category": "macro-driven"
+      "category": "earnings-driven"
     }
   ],
   "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
-  "generated_at": "2026-06-22T04:53:45.271869+00:00"
+  "generated_at": "2026-06-22T05:03:49.918617+00:00"
 }
