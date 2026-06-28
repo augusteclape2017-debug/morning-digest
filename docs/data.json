@@ -1,13 +1,13 @@
 {
   "date": "2026-06-28",
-  "macro_summary": "Markets are navigating a hawkish Fed environment with the July 28-29 FOMC meeting as the next major binary risk event, where another rate hike remains on the table (median dot now 3.8% year-end vs 3.4% in March). Tech is under pressure with the SOX index near correction territory (-~10%) and the S&P 500 down ~3% in June, while a real-money defensive rotation into healthcare is actively underway. Hyperscaler AI capex commitments of ~$750B through 2026 remain a structural tailwind for semiconductors despite near-term rate headwinds. The setup favors defined-risk option structures over outright equity purchases given macro binary risk.",
-  "screening_note": "2 of 2 overnight screening runs analyzed. All 3 qualifying ideas appeared in both runs (2/2), clearing the minimum threshold of 2 appearances. All ideas are ranked by appearance count (tied at 2/2) then by conviction votes descending.",
+  "macro_summary": "Tech and growth equities are under pressure as the Fed's revised dot plot signals a median 3.8% funds rate by year-end, up from 3.4% in March, reinforcing a hawkish higher-for-longer stance. The SOX semiconductor index is near correction territory (-~10%), while the S&P 500 is down roughly 3% in June. A clear real-money rotation from growth (XLK -1.9% on June 28) into defensives (healthcare +3.03% on June 28) is underway. The July 28-29 FOMC meeting is the next binary macro event, with a rate hike scenario serving as a key risk to growth names and a tailwind to defensive positioning.",
+  "screening_note": "2 of 2 overnight screening runs analyzed. All 3 qualifying ideas cleared the 100% appearance threshold (2/2 runs), indicating strong consensus. Ideas ranked by conviction votes descending.",
   "key_events": [
-    "July 28: MSFT Q4 FY2026 earnings after close \u2014 hard-dated re-rating catalyst",
-    "July 28-29: FOMC meeting \u2014 rate hike decision is binary risk for growth/tech",
-    "Late August 2026: NVDA Q2 FY2027 earnings print expected",
-    "Late 2026: NVDA Vera Rubin GPU shipment ramp begins",
-    "June 28 (today): XLV +3.03% vs XLK -1.9% \u2014 active real-money rotation confirmed"
+    "July 28: Microsoft Q4 FY2026 earnings after market close \u2014 hard-dated re-rating catalyst",
+    "July 28-29: FOMC meeting \u2014 rate hike or hold decision is binary macro event for all three ideas",
+    "Late Aug 2026: NVIDIA Q2 FY2027 earnings print \u2014 next fundamental confirmation",
+    "Late 2026: NVIDIA Vera Rubin GPU shipment cycle begins",
+    "June 28 (today): Active defensive rotation into healthcare underway; XLK -1.9%, XLV +3.03%"
   ],
   "ideas": [
     {
@@ -16,11 +16,11 @@
       "name": "NVIDIA Corporation",
       "appearances": 2,
       "total_runs": 2,
-      "thesis": "Appeared in both overnight screens with high conviction \u2014 NVDA is the most extreme dislocation among mega-cap semis, up only ~12% YTD while the VanEck Semiconductor ETF is up ~85%, despite posting 85% YoY revenue growth, a 37% EPS beat last quarter, and $215.9B FY2026 revenue (+65% YoY). Trading at 25.4x forward earnings vs AMD at 84.4x, NVDA is the quality-at-value entry in the sector with a 57-analyst consensus target of ~$299 implying 33\u201355% upside from current levels. Defined-risk call options (Aug/Sep expiry) are the preferred structure ahead of the late-August earnings print and Vera Rubin GPU shipment newsflow in late 2026.",
-      "catalyst": "Q2 FY2027 earnings expected late August 2026; Vera Rubin GPU shipment ramp late 2026; sector rebound setup into earnings cycle as SOX recovers from ~10% correction",
-      "edge": "Stock trading ~$192\u2013220 vs 57-analyst consensus target ~$299 (33\u201355% upside); only +12% YTD vs semiconductor ETF peers +85% \u2014 historically wide underperformance gap vs fundamentals; 25.4x forward P/E vs AMD 84.4x; Strong Buy from 62 analysts",
-      "bull_case": "Hyperscaler capex commitments of ~$750B through 2026 underpin durable demand; a sector mean-reversion toward peers alone implies 50%+ upside, and late-August earnings provide a hard catalyst for re-rating.",
-      "bear_case": "A hawkish July FOMC hike could extend the growth/tech selloff and delay sector recovery; export control escalation or Vera Rubin shipment delays could remove key near-term catalysts.",
+      "thesis": "NVDA appeared in 2 of 2 overnight screens as the most dislocated large-cap semiconductor \u2014 up only ~12% YTD versus semiconductor ETF peers +85%, despite posting 85% YoY revenue growth, a 37% EPS beat last quarter, and FY2026 revenue of $215.9B (+65% YoY). The stock trades at just 25.4x forward earnings versus AMD at 84.4x, creating a quality-at-value entry in the highest-conviction AI infrastructure name. Two near-term catalysts \u2014 late-August Q2 FY2027 earnings and Vera Rubin GPU shipment newsflow later in 2026 \u2014 provide hard-dated re-rating triggers against a backdrop of $750B in committed hyperscaler capex through 2026.",
+      "catalyst": "Q2 FY2027 earnings print expected late August 2026; Vera Rubin GPU shipments catalyst late 2026; hyperscaler capex cycle ongoing",
+      "edge": "57-analyst consensus target ~$299 implies 33\u201355% upside from ~$192\u2013220 current range; trading at 25.4x forward P/E vs AMD at 84.4x; only +12% YTD vs semiconductor ETF peers +85% \u2014 historic underperformance gap vs blowout fundamentals; Strong Buy from 62 analysts",
+      "bull_case": "YTD underperformance gap versus peers closes into the late-August earnings print, with Vera Rubin shipment newsflow providing an additional re-rating lever; hyperscaler capex commitments of $750B underpin durable demand well into FY2027.",
+      "bear_case": "A hawkish July FOMC hike could extend the tech/semiconductor selloff and widen the underperformance window further; export restrictions or China-related regulatory risk could impair near-term revenue guidance and delay the re-rating.",
       "conviction": "high",
       "category": "sector-driven"
     },
@@ -30,11 +30,11 @@
       "name": "Microsoft Corporation",
       "appearances": 2,
       "total_runs": 2,
-      "thesis": "Appeared in both overnight screens with high conviction \u2014 MSFT has de-rated ~33% from its 52-week high of $555.45 to ~$372, near 52-week lows, despite back-to-back earnings beats and accelerating AI fundamentals (Azure +40% last quarter, AI business at $37B annualized run rate +123% YoY). The July 28 earnings print is a hard-dated re-rating catalyst, with Q4 EPS consensus at $4.23\u2013$4.28 and FY2027 consensus at $19.09 implying meaningful upside from current depressed levels. A defined-risk call spread (e.g. Aug $380/$410) is the preferred structure given macro rate-hike risk as a binary overlay.",
-      "catalyst": "Q4 FY2026 earnings confirmed July 28, 2026 after market close; July 28-29 FOMC meeting is simultaneous binary risk event",
-      "edge": "Stock at ~$372 vs 39-analyst consensus target ~$569 (53% upside); down 33% from 52-week high despite 4.91% Q3 EPS beat; trades at 26x P/E vs AAPL at 36x despite faster AI-driven growth; Michael Burry disclosed long-dated call positions",
-      "bull_case": "Azure guided +39\u201340% CC growth into Q4 and AI revenue is compounding at 123% YoY \u2014 a clean earnings beat on July 28 could trigger a sharp mean-reversion toward analyst targets from historically depressed levels.",
-      "bear_case": "A hawkish FOMC hike on the same day as earnings (July 28-29) creates a simultaneous macro headwind; at 26x P/E, further multiple compression is possible if rates rise and risk-off sentiment deepens.",
+      "thesis": "MSFT appeared in 2 of 2 overnight screens with high conviction, flagged as offering the widest risk/reward among mega-cap tech into a hard-dated catalyst. The stock has de-rated ~33% from its 52-week high of $555.45 to ~$372 \u2014 near 52-week lows \u2014 despite back-to-back earnings beats (Q3 EPS beat by 4.91%) and Azure growing 40% with AI revenue hitting a $37B annualized run rate (+123% YoY). At a P/E of 26 versus Apple's 36, MSFT is cheaper than most mega-cap peers despite superior AI-driven earnings growth, and FY2027 EPS consensus of $19.09 implies material re-rating potential. Both runs flagged defined-risk options structures (e.g., Aug $380/$410 call spread) as preferred given July 28-29 FOMC rate-hike binary risk.",
+      "catalyst": "Q4 FY2026 earnings confirmed July 28, 2026 after market close; July 28-29 FOMC meeting is simultaneous binary macro event",
+      "edge": "Stock at ~$372 vs 39-analyst consensus target of $569 (+53% upside); down ~33% from 52-week high despite Q3 beat of 4.91%; Azure guided +39\u201340% CC growth; AI business at $37B annualized run rate (+123% YoY); trades at 26x P/E vs AAPL at 36x; Michael Burry disclosed long-dated call positions",
+      "bull_case": "July 28 earnings deliver another beat with Azure acceleration and AI monetization commentary, triggering a sharp mean-reversion from deeply depressed levels toward the $569 analyst consensus target; rate-hold FOMC outcome removes the macro overhang simultaneously.",
+      "bear_case": "A July FOMC rate hike on the same day as earnings amplifies the sell-the-news risk even on a beat; Azure growth decelerating below the 39% guide or margin compression from AI infrastructure spend could extend the de-rating.",
       "conviction": "high",
       "category": "earnings-driven"
     },
@@ -44,15 +44,15 @@
       "name": "Health Care Select Sector SPDR Fund",
       "appearances": 2,
       "total_runs": 2,
-      "thesis": "Appeared in both overnight screens with medium conviction as a macro-driven defensive rotation play \u2014 XLV surged +3.03% on June 28 alone while XLK fell -1.9%, confirming active real-money rotation out of growth and into healthcare today. With the Fed median dot now signaling 3.8% funds rate by year-end (up from 3.4% in March) and a hawkish July FOMC meeting ahead, defensives with pricing power historically outperform; XLV provides diversified, liquid, options-available exposure to this rotation with Eli Lilly and J&J among top holdings.",
-      "catalyst": "Defensive rotation actively underway as of June 28 (confirmed today); July 28-29 FOMC meeting \u2014 a hawkish hike scenario would further accelerate rotation from growth into defensives",
-      "edge": "XLV +3.03% on June 28 vs XLK -1.9% \u2014 4.93% single-day relative outperformance confirms real-money rotation; S&P 500 down ~3% in June while healthcare rising; structurally supported by hawkish Fed dot plot (3.8% median rate) and higher-for-longer environment",
-      "bull_case": "A July FOMC rate hike or hawkish hold accelerates the defensive rotation already in motion; healthcare's pricing power and earnings stability attract capital flows as long-duration growth assets reprice.",
-      "bear_case": "If the Fed pivots dovish at July FOMC or signals cuts, risk appetite could return sharply to growth/tech, reversing the rotation quickly; XLV underperforms in a strong risk-on rally.",
+      "thesis": "XLV appeared in 2 of 2 overnight screens as the consensus defensive hedge and rotation vehicle, with both runs noting a confirmed, real-money sector shift into healthcare happening today \u2014 XLV surged +3.03% on June 28 while XLK fell -1.9%. The Fed's revised dot plot now signals a median 3.8% funds rate by year-end (up from 3.4% in March), structurally favoring defensives with pricing power over growth equities. Both runs flagged XLV as an options-available vehicle suitable for a swing long, ETF hedge against QQQ/tech short, or covered call/collar structure for moderate-risk accounts; July FOMC would accelerate rotation further in a hike scenario.",
+      "catalyst": "Active rotation underway as of June 28 (today); July 28-29 FOMC \u2014 a rate hike scenario would further accelerate defensive rotation; Fed dot plot median now 3.8% year-end funds rate",
+      "edge": "XLV +3.03% vs XLK -1.9% on June 28 \u2014 clear same-day real-money rotation signal; S&P 500 down ~3% in June while healthcare rising; hawkish Fed environment with median dot plot revised up 40bps since March structurally favors defensives; Eli Lilly and J&J providing large-cap leadership within the ETF",
+      "bull_case": "A July FOMC rate hike or hawkish hold reinforces the higher-for-longer narrative, accelerating rotation into defensives; healthcare's pricing power and defensive earnings durability attract continued institutional inflows as growth de-rates.",
+      "bear_case": "A dovish FOMC pivot or surprise rate cut could reverse the rotation trade rapidly, sending capital back into growth and tech; drug pricing legislation risk or sector-specific regulatory headlines (e.g., Medicare negotiation) could weigh on XLV's largest holdings.",
       "conviction": "medium",
       "category": "macro-driven"
     }
   ],
   "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
-  "generated_at": "2026-06-28T14:39:54.134556+00:00"
+  "generated_at": "2026-06-28T14:47:40.146504+00:00"
 }
