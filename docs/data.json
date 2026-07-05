@@ -1,88 +1,11 @@
 {
-  "date": "2026-07-03",
-  "macro_summary": "Markets head into the July 4th holiday weekend with the Nasdaq-100 down roughly 6% in June and the semi sector hit by a sharp profit-taking rotation, even as underlying fundamentals remain intact. A softer-than-expected June jobs print (57K vs. ~112K consensus) has materially reduced near-term Fed hike risk, with futures pricing 79.5% probability of no move at the July 28-29 FOMC. Big-tech earnings season kicks off in earnest around July 28-31, setting up a dense catalyst window for the ideas below. The historic SK Hynix Nasdaq IPO on July 10 adds a rare macro signal for AI-infrastructure demand confirmation.",
-  "screening_note": "6 independent overnight screening runs analyzed; minimum threshold to qualify is 2 appearances. All 5 tickers cleared the bar, with 3 appearing in all 6 runs.",
+  "date": "2026-07-04",
+  "macro_summary": "No ideas appeared in 2+ of the 1 overnight screening runs, suggesting a quiet or mixed news environment with no clear high-conviction setups today.",
+  "screening_note": "Analyzed 1 hourly runs. Consensus threshold: 2+ appearances.",
   "key_events": [
-    "July 6 \u2014 Markets reopen after 3-day holiday weekend; seasonality historically bullish (Nasdaq avg +3.51% in July over last 10 years)",
-    "July 10 \u2014 SK Hynix (SKHY) Nasdaq IPO debut; largest ADR listing in recorded market history (~$29.4B raise)",
-    "July 24 \u2014 US-China tariff truce expiry; binary risk for AAPL China exposure",
-    "July 28 \u2014 MSFT Q4 FY2026 earnings after close; Azure CC growth guidance (39-40%) in focus",
-    "July 28-29 \u2014 FOMC meeting; no hike expected at 79.5% probability odds",
-    "July 30 \u2014 AAPL Q3 FY2026 earnings after close; first major print of Tim Cook successor era",
-    "August 26 \u2014 NVDA Q2 FY2027 earnings; $91.7B revenue consensus"
+    "No consensus ideas reached the threshold today"
   ],
-  "ideas": [
-    {
-      "ticker": "SKHY",
-      "type": "stock",
-      "name": "SK Hynix Inc. (ADS)",
-      "appearances": 6,
-      "total_runs": 6,
-      "thesis": "SKHY appeared in all 6 overnight screens \u2014 the strongest consensus signal of the session. The July 10 Nasdaq IPO debut is the largest ADR listing in recorded market history (~$29.4B), and for the first time it grants Western institutional investors direct, liquid access to the world's dominant HBM/AI memory supplier. SK Hynix holds 58% global HBM market share with its order book sold out through 2027 and posted 198% YoY revenue growth and a 72% operating margin in Q1 2026 \u2014 exceeding even NVIDIA's 65% \u2014 yet the stock trades at a single-digit forward P/E versus US AI chip peers at 25-35x, a gap HSBC attributes almost entirely to the 'Korea Discount' now closing on listing day.",
-      "catalyst": "Nasdaq IPO first trading day: July 10, 2026",
-      "edge": "HSBC forecasts a ~20% valuation re-rating on U.S. listing (P/B rising from 2.8x to 3.4x); Micron historically traded at 35% premium to SK Hynix due solely to US-investor access gap; DDR5 margins potentially reaching 90%; Morgan Stanley forecasts DRAM +62% and NAND +75% in 2026",
-      "bull_case": "U.S. listing closes the valuation gap to peer Micron (historically 35% premium on access alone) while a sold-out HBM4 order book and 72% operating margins deliver fundamental upside; options availability shortly post-listing makes defined-risk call spreads an attractive Day 1 vehicle.",
-      "bear_case": "Korean-market shareholders may use the Nasdaq debut as a liquidity event to trim, creating early supply overhang; geopolitical US-Korea trade tensions or an AI capex spending pause could compress HBM pricing rapidly given high fixed-cost exposure.",
-      "conviction": "high",
-      "category": "sector-driven"
-    },
-    {
-      "ticker": "MSFT",
-      "type": "stock",
-      "name": "Microsoft Corporation",
-      "appearances": 6,
-      "total_runs": 6,
-      "thesis": "MSFT appeared in all 6 overnight screens with unanimous high conviction. The stock sits near the low end of its post-Q3 range (~$387 vs. a $382-$466 band) despite an AI revenue run rate exceeding $37B annualized growing 123% YoY and Q4 revenue guidance of $87.9B (above the $87.61B consensus). The July 28 earnings print is a hard-dated catalyst just 4 weeks away, and the 56-analyst consensus 12-month target of $561 implies a 44% upside gap \u2014 an unusually wide spread for a mega-cap on the cusp of a beat-and-raise quarter.",
-      "catalyst": "Q4 FY2026 earnings: confirmed July 28, 2026 after market close; Azure CC growth guidance (39-40%) is the key beat/miss metric",
-      "edge": "Consensus analyst 12-month price target of $561 implies ~44% upside from ~$390; stock sold off ~5% on Q3 despite beats, creating an asymmetric reset; Q4 EPS consensus $4.24 vs. $4.06 last-quarter beat; 21.95x P/E is historically cheap for MSFT at this growth profile",
-      "bull_case": "A Q4 Azure beat above 40% CC growth combined with continued Copilot enterprise monetization could re-rate the stock sharply toward the $420-$450 mid-range, rewarding a pre-earnings call spread (e.g., Aug $390/$420) with favorable risk/reward.",
-      "bear_case": "Higher-for-longer rate environment compresses growth multiples; any Azure guidance miss or AI Copilot adoption data below expectations would extend the post-Q3 selloff, and the stock has already demonstrated willingness to fall on beats.",
-      "conviction": "high",
-      "category": "earnings-driven"
-    },
-    {
-      "ticker": "NVDA",
-      "type": "stock",
-      "name": "NVIDIA Corporation",
-      "appearances": 6,
-      "total_runs": 6,
-      "thesis": "NVDA appeared in all 6 overnight runs, though conviction was split (3 high, 3 medium), reflecting the further-dated earnings catalyst and elevated sector volatility. The stock is ~18% off its 52-week high of $236.54 near $194 technical support after a sector-wide profit-taking event (SOX -6.7% in one session) disconnected from fundamentals \u2014 FY2026 revenue grew 65% YoY and Q2 FY2027 is guided at $91B. The SKHY Nasdaq IPO on July 10 serves as a direct HBM demand confirmation catalyst for NVDA's Vera Rubin platform, where all three major HBM4 suppliers are now qualified and supply bottlenecks are easing.",
-      "catalyst": "Q2 FY2027 earnings: August 26, 2026; near-term catalyst is SKHY IPO on July 10 as HBM demand signal; Vera Rubin HBM4 qualification confirmed June 5, 2026",
-      "edge": "61-analyst consensus target of $301.62 implies 55.8% upside from ~$194; P/E of 29.8x TTM is modest for 65% revenue growth; pullback driven by profit-taking not fundamental deterioration \u2014 SOX index dropped 6.7% in one session with no negative data releases",
-      "bull_case": "Current $194 support level combined with a 55%+ analyst target gap, easing HBM supply constraints, and the SKHY IPO acting as an AI-demand confirmation event creates a strong swing-trade setup ahead of the August 26 earnings print.",
-      "bear_case": "Elevated semi-sector volatility widens option spreads, reducing the efficiency of defined-risk plays; a macro hawkish surprise at the July 28-29 FOMC or signs of hyperscaler capex slowdown could push NVDA through $194 support before the August earnings floor.",
-      "conviction": "medium",
-      "category": "sector-driven"
-    },
-    {
-      "ticker": "AAPL",
-      "type": "option",
-      "name": "Apple Inc.",
-      "appearances": 4,
-      "total_runs": 6,
-      "thesis": "AAPL appeared in 4 of 6 overnight screens with predominantly medium conviction. The confirmed July 30 earnings date is the primary catalyst, and the setup is compelling: management guided June-quarter revenue growth of 14-17% against a prior analyst consensus of only 9.5%, the Services segment provides a high-margin recurring revenue buffer, and a fresh $100B buyback is authorized. A defined-risk bull call spread expiring early August captures the catalyst cleanly while managing downside from the July 24 tariff truce expiry \u2014 a binary China-exposure risk that screens consistently flagged.",
-      "catalyst": "Q3 FY2026 earnings: confirmed July 30, 2026 after market close; July 24 US-China tariff truce expiry is an intervening binary risk",
-      "edge": "Guided revenue growth of 14-17% vs. prior consensus of 9.5% \u2014 a substantial undershoot by the Street; last earnings reaction was +3.2% despite an EPS miss, suggesting stock is well-supported; options-implied move likely moderate given stable Services mix, making call spread premium attractive",
-      "bull_case": "A revenue beat driven by the 14-17% guidance range closes the CEO-transition discount and Services gross margin expansion above 47.5% triggers multiple re-rating toward the $317 post-earnings high; $100B buyback provides a price floor.",
-      "bear_case": "July 24 tariff truce expiry reintroduces China hardware tariff risk, directly pressuring iPhone ASPs and gross margins; a repeat EPS miss (as in Q2) could weigh on the stock even on a revenue beat, limiting call spread upside.",
-      "conviction": "medium",
-      "category": "earnings-driven"
-    },
-    {
-      "ticker": "QQQ",
-      "type": "etf",
-      "name": "Invesco QQQ Trust",
-      "appearances": 2,
-      "total_runs": 6,
-      "thesis": "QQQ appeared in 2 of 6 overnight screens \u2014 at the minimum threshold \u2014 but offers a diversified macro wrapper around the earnings-season and FOMC catalysts flagged across all other ideas. The June jobs print (57K vs. ~112K expected) materially reduces near-term hike risk, the Nasdaq-100 underperformed the S&P 500 by roughly 6% in June creating a catch-up setup, and July is historically the index's strongest month (avg +3.51% over 10 years, 100% positive rate). A defined-risk July bull call spread bridges the holiday reopen through the FOMC and into big-tech earnings season.",
-      "catalyst": "Market reopen July 6 (holiday-weekend seasonality); FOMC July 28-29 (no hike at 79.5% probability); big-tech earnings window July 28-31",
-      "edge": "Nasdaq-100 down ~6% in June vs. S&P 500 +20.37% YoY \u2014 mean-reversion setup; JPMorgan raised 2026 S&P target to 7,800 implying ~5% further upside; soft jobs data (57K vs. 110-115K expected) pushes next realistic hike to October at earliest",
-      "bull_case": "Fading hike risk, bullish July seasonality, and a dense earnings-beat window (MSFT July 28, AAPL July 30) drive a Nasdaq-100 catch-up trade; a bull call spread with mid-to-late July expiry captures the setup with defined downside.",
-      "bear_case": "Any hawkish Fed surprise at July 28-29 FOMC or a string of earnings misses from mega-cap tech names could accelerate the June momentum reversal; the semi-sector overhang (NVDA, AMD, Micron volatility) adds index drag risk given QQQ's large tech concentration.",
-      "conviction": "medium",
-      "category": "macro-driven"
-    }
-  ],
+  "ideas": [],
   "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
-  "generated_at": "2026-07-03T13:01:06.124897+00:00"
+  "generated_at": "2026-07-05T04:26:46.034663+00:00"
 }
