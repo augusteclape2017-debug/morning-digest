@@ -1,66 +1,11 @@
 {
-  "date": "2026-07-07",
-  "macro_summary": "Markets enter Tuesday with solid momentum after Monday's broad rally \u2014 the Dow closed above 53,000 for the first time, S&P 500 gained 0.7%, and the Nasdaq jumped 1.1% on revived AI and semiconductor optimism. Overnight futures are near flat (S&P -0.2%, Nasdaq -0.8%), suggesting a digestion day ahead. The Fed remains on hold at 3.5\u20133.75% with Chair Warsh in hawkish mode; FOMC minutes drop Wednesday and the July 28\u201329 meeting carries a ~24% probability of a hike \u2014 a meaningful tail risk for rate-sensitive longs. Oil has collapsed to ~$69 WTI as the Strait of Hormuz normalizes and OPEC+ adds 188K bpd, creating a dual tailwind for airlines and consumer staples heading into earnings week.",
+  "date": "2026-07-06",
+  "macro_summary": "No ideas appeared in 2+ of the 1 overnight screening runs, suggesting a quiet or mixed news environment with no clear high-conviction setups today.",
+  "screening_note": "Analyzed 1 hourly runs. Consensus threshold: 2+ appearances.",
   "key_events": [
-    "SpaceX (SPCX) officially joins Nasdaq-100 today (July 7) \u2014 index funds completed forced buying after Monday close, ~$4.3B estimated flows",
-    "Samsung Electronics Q2 2026 preliminary results due today (Tuesday) \u2014 expected 18x YoY profit surge; key read-across for memory and AI chip demand",
-    "FOMC minutes from Kevin Warsh's first meeting release Wednesday July 9 \u2014 market watching for hike signal language",
-    "PepsiCo (PEP) Q2 earnings Thursday July 9 before open \u2014 EPS est. $2.21, Rev est. $23.96B",
-    "Delta Air Lines (DAL) Q2 earnings Friday July 10 before open \u2014 EPS est. $1.47, Rev est. $17.8B (confirmed)",
-    "WTI crude ~$68.8/bbl, near post-war lows, on OPEC+ supply increase and Hormuz normalization",
-    "Broadcom (AVGO) +4\u20136% Monday after SEC filing confirmed Apple custom-chip supply deal extended through 2031",
-    "EIA Short-Term Energy Outlook update due today (July 7) \u2014 first update post-Hormuz normalization"
+    "No consensus ideas reached the threshold today"
   ],
-  "ideas": [
-    {
-      "ticker": "DAL",
-      "type": "stock",
-      "name": "Delta Air Lines, Inc.",
-      "thesis": "Delta reports Q2 2026 earnings Friday July 10 before the open \u2014 a quarter shaped by two competing forces that have now resolved favorably: early Q2 was hammered by a fuel crisis (jet fuel crack spreads doubled), but the U.S.-Iran ceasefire dropped WTI to ~$69 and handed Delta an estimated ~$300M windfall from its Trainer Refinery asset. Delta has beaten EPS estimates in 4 of the last 5 quarters, CEO guided to $1B+ profit for the June quarter, and premium cabin load factors peak in Q2. The Street's estimate range ($1.25\u2013$1.63 EPS) is unusually wide, suggesting a positive surprise could produce a meaningful re-rating.",
-      "catalyst": "Q2 2026 earnings release July 10, 2026 before market open (confirmed) \u2014 first full quarter reflecting both the oil cost shock and its subsequent reversal via Trainer Refinery gain.",
-      "edge": "Street-high analyst target of $105 vs. ~$92 current price (~14% upside to high target alone). CEO's own Q2 profit guidance of $1B+ sits at the high end of the $1.25\u2013$1.63 EPS consensus range, implying the bar may be beatable. DAL has beaten EPS in 4 of last 5 quarters; history shows 5\u20138% single-session moves on strong summer beats.",
-      "bull_case": "Oil below $70 materially cuts fuel costs versus Street models built at higher prices; the Trainer Refinery gain could add ~$0.20\u20130.30/share upside surprise. A full-year guidance raise would be the catalyst for a multi-session move, as the stock trades at only ~13.7x forward earnings vs. sector re-rating.",
-      "bear_case": "Labor costs (4+ of 5 major collective bargaining agreements renewed in 2025\u201326) are structural headwinds. If premium travel demand softens in Q3 guidance commentary \u2014 or if CEO Bastian signals RASM deceleration \u2014 the stock could give back recent 47% three-month gains sharply. Options note: IV will be elevated pre-earnings; a defined-risk call spread (e.g., Aug expiry) may offer better risk/reward than outright shares ahead of the print.",
-      "conviction": "high",
-      "category": "earnings-driven"
-    },
-    {
-      "ticker": "AVGO",
-      "type": "stock",
-      "name": "Broadcom Inc.",
-      "thesis": "Broadcom filed an 8-K Monday confirming it will develop and supply custom ASIC silicon to Apple through 2031 \u2014 a multi-generational deal covering multiple iPhone and iPad cycles that locks in Apple (~20% of Broadcom sales) as a customer for the rest of the decade, directly addressing the bear case that Apple would insource these components. Separately, Broadcom CEO Hock Tan has guided AI semiconductor revenue to $16B in Q3 FY2026 \u2014 a 200%+ YoY surge \u2014 giving the stock two concurrent growth pillars. The stock is up only ~34% YTD vs. AMD's ~150%, suggesting relative underperformance despite strengthening fundamentals.",
-      "catalyst": "SEC 8-K filed July 6, 2026 formally extending Apple custom-chip supply partnership through 2031; next Broadcom earnings (Q3 FY2026) expected in early September, giving a defined window for the Apple deal to be further digested and AI revenue to be reported.",
-      "edge": "Wall Street consensus analyst price targets cluster $501\u2013$524 (per Benzinga/July 6 data) vs. ~$381 post-Monday-rally price \u2014 implying ~31\u201337% upside to consensus. CEO's explicit $16B Q3 AI revenue guide represents 200%+ YoY, a concrete number the market can benchmark. AVGO up only ~34% YTD vs. AMD +150% and SOX +47%, pointing to relative underperformance that the Apple deal news may begin to close. Options available \u2014 a defined-risk call spread (e.g., Sep expiry) suits this multi-week thesis.",
-      "bull_case": "The 2031 Apple deal eliminates the largest single bear case (Apple insourcing risk), freeing the market to re-rate AVGO on its AI custom-chip pipeline alone. If Q3 AI revenue lands at or above $16B, the stock has a credible path toward mid-$400s before year-end.",
-      "bear_case": "AVGO's June Q3 AI chip sales guidance of $16B already missed the prior $17.2B estimate, triggering a -14% selloff on June 4. If the Apple deal's terms (volumes, pricing) disappoint at the next earnings call, or if broader chip sentiment reverses on FOMC hike signals, the stock can give back the deal premium quickly. The stock is not cheap on an absolute basis at ~$381.",
-      "conviction": "medium",
-      "category": "sector-driven"
-    },
-    {
-      "ticker": "NVDA",
-      "type": "stock",
-      "name": "NVIDIA Corporation",
-      "thesis": "NVDA pulled back ~14% from its May ATH of $236.54 to ~$195.55 (per verified Polygon close) even as the business delivered $81.6B in Q1 revenue (+85% YoY) and the AI demand signal from Foxconn's stronger-than-expected Q2 sales remains fresh. The analyst consensus of ~$300\u2013$309 (TipRanks/StockAnalysis average) vs. the $195.55 verified close represents a ~54% gap. Chip stocks broadly reclaimed momentum Monday, and Samsung's preliminary results today (Tuesday) could serve as a near-term read-through on HBM/AI memory demand that benefits NVDA sentiment.",
-      "catalyst": "Samsung Electronics Q2 preliminary results today July 7 (18x YoY profit expected) as a sector sentiment catalyst; NVDA's own Q2 FY2027 earnings are August 26, 2026 \u2014 the formal numbered catalyst is further out but well within a position-holding window.",
-      "edge": "Mean analyst price target ~$301\u2013$309 (61 analysts, StockAnalysis) vs. verified Polygon prev close of $195.55 \u2014 ~54% implied upside to consensus. NVDA is trading ~17% below its May 2026 ATH of $236.54, with Q1 revenue of $81.6B beating the $78.9B estimate and next quarter guided to ~$91.7B. Forward P/E ~43x is elevated but supported by 85% revenue growth. Note: no near-term dated catalyst before Aug 26 limits this to medium conviction for a swing frame.",
-      "bull_case": "Foxconn's beat and Samsung's expected 18x profit surge confirm the AI capex cycle is intact. If NVDA holds the $185\u2013$195 range and the broader chip rally continues into bank earnings week, the stock has a technical pathway back toward $220\u2013$236 within the swing window, well ahead of the August earnings.",
-      "bear_case": "A reported delay of the Kyber NVL144 rack to 2028 adds product-cycle uncertainty. The June FOMC dot plot showed 9 of 18 officials supporting rate hikes \u2014 a hike at the July 29 meeting (24% probability) would compress NVDA's 43x P/E sharply. NVDA also lagged AMD (+150% YTD) significantly, suggesting some rotation out of NVDA specifically.",
-      "conviction": "medium",
-      "category": "sector-driven"
-    },
-    {
-      "ticker": "PEP",
-      "type": "stock",
-      "name": "PepsiCo, Inc.",
-      "thesis": "PepsiCo reports Q2 2026 earnings Thursday July 9 before the open with a notably lowered bar \u2014 EPS estimates have been cut ~2.6% over the past 90 days (from $2.27 to ~$2.21), and the stock has drifted ~13.6% lower since its April earnings beat, sitting near the lower end of its post-earnings range (~$135). PEP has exceeded EPS estimates in each of the last four quarters, and the stock trades at a meaningful discount to peers: 16.3x forward P/E vs. KDP at 29.6% YTD and MNST at 31.6% YTD. A low-bar beat with stable guidance could close some of that peer gap quickly.",
-      "catalyst": "Q2 2026 earnings release July 9, 2026 before market open (confirmed) \u2014 first quarter where the estimate bar has been meaningfully reset lower after a 13.6% post-Q1 drift.",
-      "edge": "PEP trades at 16.3x forward P/E vs. the S&P 500's 20.8x and the broader beverage industry average of 19.29x \u2014 a visible discount. The stock's 4-consecutive-quarter EPS beat record creates a quantifiable base-rate edge. KO, MNST, KDP all up 9\u201331% in 3 months vs. PEP \u2014 a ~15\u201320pp peer underperformance gap that could partially close on a clean print.",
-      "bull_case": "If PEP beats the lowered $2.21 EPS estimate (as it has in 4 of the last 4 quarters) and holds/raises full-year guidance, the stock could see a snap-back trade toward $148\u2013$151, the prior resistance zone noted by analysts. Lower oil prices reduce input and logistics costs, potentially a modest tailwind.",
-      "bear_case": "Estimate cuts were driven by real volume concerns in Frito-Lay North America and pricing power erosion \u2014 if those trends worsen, a beat on EPS could still be accompanied by negative volume commentary that pushes shares lower. The stock has historically produced only modest moves on earnings (~flat average reaction historically), so the risk/reward on options may not be attractive given pre-earnings IV expansion.",
-      "conviction": "medium",
-      "category": "earnings-driven"
-    }
-  ],
+  "ideas": [],
   "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
-  "generated_at": "2026-07-07T04:40:38.409387+00:00"
+  "generated_at": "2026-07-07T05:30:01.222887+00:00"
 }
