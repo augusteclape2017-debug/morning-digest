@@ -1,11 +1,87 @@
 {
-  "date": "2026-07-06",
-  "macro_summary": "No ideas appeared in 2+ of the 1 overnight screening runs, suggesting a quiet or mixed news environment with no clear high-conviction setups today.",
-  "screening_note": "Analyzed 1 hourly runs. Consensus threshold: 2+ appearances.",
+  "date": "2026-07-07",
+  "macro_summary": "Markets enter the week with a soft June jobs print (57K vs. 110K consensus) dampening rate-hike expectations and semi stocks bouncing off last week's SOX breakdown. Two binary macro events loom large: June CPI on July 14 and the FOMC decision July 28\u201329, the latter coinciding with both AAPL and MSFT earnings. AI infrastructure demand remains the dominant theme, with Foxconn's Q2 beat confirming NVDA-linked spending and SK Hynix's landmark ADR debut on July 10 set to unlock Western capital access to the dominant HBM supplier.",
+  "screening_note": "6 independent overnight screening runs analyzed; minimum threshold of 2 appearances required for inclusion. All 5 qualifying ideas met or exceeded this bar, with 3 ideas appearing in every single run (6/6).",
   "key_events": [
-    "No consensus ideas reached the threshold today"
+    "July 10 \u2014 SK Hynix (SKHY) Nasdaq ADR first trading day (~$29.4B raise, largest ADR listing in history)",
+    "July 13 \u2014 NVDA board expansion; Vera Rubin demand commentary expected",
+    "July 14 \u2014 June CPI release 8:30am ET (May YoY was 4.2%)",
+    "July 28 \u2014 MSFT FY Q4 earnings after close",
+    "July 28\u201329 \u2014 FOMC rate decision",
+    "July 30 \u2014 AAPL Fiscal Q3 earnings after close (same day as FOMC decision date)"
   ],
-  "ideas": [],
+  "ideas": [
+    {
+      "ticker": "AAPL",
+      "type": "option",
+      "name": "Apple Inc.",
+      "appearances": 6,
+      "total_runs": 6,
+      "thesis": "AAPL appeared in all 6 overnight screens with 5 high-conviction votes, making it the top consensus idea. The July 30 fiscal Q3 print \u2014 which lands on the same day as the FOMC decision \u2014 creates a double-catalyst binary event best expressed via defined-risk options rather than outright stock. Q2 revenue grew 17% YoY to $111.2B with iPhone sales +22%, and the company guided 14\u201317% Q3 revenue growth; foldable iPhone buzz (rumored $2,500 model in fall lineup) adds a product-cycle optionality premium on top of the earnings setup.",
+      "catalyst": "Fiscal Q3 earnings July 30, 2026 (after close) \u2014 same day as FOMC rate decision; fall foldable iPhone lineup announcement expected in coming weeks",
+      "edge": "Guided 14\u201317% Q3 revenue growth off a 17% Q2 beat; ~$200B market cap gap below NVDA's $4.7T creates headline 'market cap crown' narrative fuel; analyst target range $290\u2013$400 vs. ~$307 current; call spread offers defined risk into a vol-rich binary event day",
+      "bull_case": "A Q3 beat at the high end of guidance plus foldable iPhone confirmation could re-rate AAPL above NVDA's $4.7T market cap for the first time, triggering a momentum squeeze; a simultaneously dovish FOMC on July 30 would compress discount rates and further lift the 37x multiple.",
+      "bear_case": "AAPL trades at 37x earnings \u2014 rich versus NVDA at 30x on far slower growth \u2014 and a hawkish FOMC surprise on the same day as the earnings print could compress the multiple sharply even on an in-line result; foldable delays or weaker services revenue are additional downside risks.",
+      "conviction": "high",
+      "category": "earnings-driven"
+    },
+    {
+      "ticker": "SKHY",
+      "type": "stock",
+      "name": "SK Hynix Inc. (ADR)",
+      "appearances": 6,
+      "total_runs": 6,
+      "thesis": "SKHY appeared in all 6 overnight screens and represents the most time-sensitive idea in this digest: the Nasdaq ADR begins trading July 10, just 3 days away, in what is projected to be the largest ADR listing in recorded market history (~$29.4B raise). The core thesis is a valuation re-rating event \u2014 Korean-listed shares trade at single-digit forward P/E while US AI semiconductor peers trade at 30\u201340x, and HSBC has already applied a 20% accessibility premium in upgrading its Korean price target by 38%. SK Hynix controls ~56\u201357% of the global HBM market with 70%+ operating margins, directly supplying NVIDIA's AI factory buildout.",
+      "catalyst": "Nasdaq ADR first trading day July 10, 2026 \u2014 largest ADR listing in recorded history (~$29.4B raise); Western institutional capital gains first liquid access",
+      "edge": "Korean shares trade at single-digit forward P/E vs. US AI semis at 30\u201340x; HSBC re-rating applied 20% accessibility premium (P/B 2.8x \u2192 3.4x) with 38% target upgrade; revenue +46.76% YoY, earnings +116.89% in 2025; stock up ~260% YTD on Korean exchange but previously inaccessible to most US institutional mandates",
+      "bull_case": "US institutional inflows into the ADR compress the Korea-to-US valuation gap rapidly; 56% HBM market share and NVDA supply-chain lock-in justify a premium re-rating toward semiconductor peers, implying substantial multi-month upside from the IPO price.",
+      "bear_case": "First-day IPO pricing often overshoots fair value as retail momentum chases the listing narrative; options are likely unavailable at launch, limiting hedging ability; a broader semi sector selloff or HBM pricing pressure from Samsung competition could quickly erode the accessibility premium.",
+      "conviction": "high",
+      "category": "sector-driven"
+    },
+    {
+      "ticker": "NVDA",
+      "type": "stock",
+      "name": "NVIDIA Corporation",
+      "appearances": 5,
+      "total_runs": 6,
+      "thesis": "NVDA appeared in 5 of 6 overnight screens, with the primary edge being a post-selloff dip entry before a packed catalyst runway. FQ1 2027 revenue came in at +85% YoY to $81.6B with data center at a record $75.2B, yet the stock trades at ~30x earnings \u2014 cheaper than AAPL despite 5x faster growth. Near-term catalysts include a board expansion on July 13, Vera Rubin system shipments in H2 2026, and August 25 earnings; Foxconn's July 6 Q2 beat independently confirmed AI infrastructure spending is intact, and an $80B buyback provides a floor.",
+      "catalyst": "Board expansion July 13, 2026; Vera Rubin CPU demand commentary; FQ2 2027 earnings August 25, 2026 after close; June CPI July 14 as macro gating event",
+      "edge": "68-analyst consensus 12-month average target ~$301 implies ~52% upside from ~$198 current price; revenue estimate revised upward 6.69% in past 3 months; trades at ~30x earnings vs. AAPL at 37x despite 85% YoY revenue growth; Kyber delay overhang appears over-discounted after NVDA denial",
+      "bull_case": "Foxconn-confirmed AI capex cycle and Vera Rubin ramp in H2 sustain 80%+ revenue growth; a softer CPI on July 14 compresses rates and re-expands the multiple, with the $80B buyback absorbing selling pressure and driving a squeeze toward consensus targets.",
+      "bear_case": "Any renewed Blackwell/Rubin shipment delay or export restriction headline could reprice the stock sharply lower; higher-for-longer rates compress growth multiples and macro uncertainty ahead of July 29 FOMC argues for options rather than outright stock to manage binary risk.",
+      "conviction": "medium",
+      "category": "sector-driven"
+    },
+    {
+      "ticker": "MSFT",
+      "type": "option",
+      "name": "Microsoft Corporation",
+      "appearances": 4,
+      "total_runs": 6,
+      "thesis": "MSFT appeared in 4 of 6 overnight screens and offers a compelling risk/reward setup heading into its confirmed July 28 FY Q4 earnings print \u2014 the same week as the FOMC decision. The stock is near the low of its post-April earnings range (~$387 vs. $382\u2013$466 range), a 4,800-person layoff announced July 6 signals AI-driven cost discipline that should expand operating margins, and 56 analysts carry a consensus 'Strong Buy' with a $561 average 12-month target implying ~44% upside. Azure guided 39\u201340% constant-currency growth and the 6,000-person Copilot unit is accelerating enterprise AI monetization.",
+      "catalyst": "FY Q4 2026 earnings July 28, 2026 after close \u2014 same week as FOMC July 28\u201329; 4,800-job restructuring announced July 6 sets up a cleaner margin story for the print",
+      "edge": "56-analyst consensus 'Strong Buy'; average 12-month target $561 vs. ~$387 current = ~44% upside gap; stock near post-earnings range lows after ~4.8% pullback since April print; Azure guided 39\u201340% CC growth; layoff-driven cost reset improves operating leverage heading into print",
+      "bull_case": "Azure acceleration above 40% CC growth combined with Copilot monetization evidence could re-rate the stock toward $450\u2013$500 near-term; a dovish FOMC interpretation on July 29 would provide immediate multiple expansion tailwind the day after the earnings print.",
+      "bear_case": "Higher-for-longer rates are a direct headwind to MSFT's growth multiple at current valuations; the stock sold off ~1.7% on the layoff announcement, suggesting the market is skeptical of the cost narrative, and any Azure deceleration below guidance would disappoint a crowded bull consensus.",
+      "conviction": "medium",
+      "category": "earnings-driven"
+    },
+    {
+      "ticker": "QQQ",
+      "type": "option",
+      "name": "Invesco QQQ Trust",
+      "appearances": 2,
+      "total_runs": 6,
+      "thesis": "QQQ met the minimum threshold appearing in 2 of 6 runs, qualifying as a macro hedge and tactical vehicle for the dense catalyst calendar ahead. The Nasdaq-100 broke below its 50-day moving average last week but semi stocks are bouncing as of July 7 premarket, setting up a potential mean-reversion trade. A call debit spread expiring late July cleanly captures both the June CPI print on July 14 and the Mag-7 earnings cluster (MSFT, GOOGL, META, AAPL, AMZN) running July 22\u201331, with the FOMC July 29 as the key binary risk event mid-spread.",
+      "catalyst": "June CPI release July 14, 2026 at 8:30am ET (vs. May's 4.2% YoY); FOMC decision July 28\u201329; Mag-7 earnings cluster July 22\u201331",
+      "edge": "Consensus 12-month avg target ~$857 vs. last price ~$740 = ~15.7% implied upside; Nasdaq-100 broke 50-day MA last week creating a mean-reversion setup; weak June jobs print (57K vs. 110K consensus) is already softening rate-hike expectations ahead of CPI",
+      "bull_case": "A softer-than-expected June CPI print on July 14 triggers a relief rally in growth/tech, with the Mag-7 earnings cluster in the final week of July sustaining momentum and driving QQQ back toward all-time highs above $857 consensus.",
+      "bear_case": "A hotter CPI or hawkish FOMC statement could re-test and break the 50-day MA support, compressing the Mag-7 earnings multiples just as companies report; a call spread still provides defined downside but total premium loss is the realistic bear outcome.",
+      "conviction": "medium",
+      "category": "macro-driven"
+    }
+  ],
   "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
-  "generated_at": "2026-07-07T05:30:01.222887+00:00"
+  "generated_at": "2026-07-07T13:01:01.590163+00:00"
 }
