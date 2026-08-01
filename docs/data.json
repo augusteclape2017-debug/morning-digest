@@ -1,11 +1,54 @@
 {
-  "date": "2026-07-31",
-  "macro_summary": "No ideas appeared in 2+ of the 1 overnight screening runs, suggesting a quiet or mixed news environment with no clear high-conviction setups today.",
-  "screening_note": "Analyzed 1 hourly runs. Consensus threshold: 2+ appearances.",
+  "date": "2026-08-01",
+  "macro_summary": "Markets enter August on a mixed but broadly constructive footing. The S&P 500 rose 0.7% and the Nasdaq gained 0.6% on July 31, led by Amazon's blowout AWS quarter (+37% YoY, well above consensus) and a broader re-rating of AI infrastructure names. The Fed held rates steady at 3.50%\u20133.75% at its July meeting with a 9-3 vote, with three hawkish dissenters pushing for a hike; the next FOMC decision is September 16, with markets watching the July CPI (Aug 12) and the August 7 jobs report as key inputs. Apple's ~7.4% post-earnings decline \u2014 its worst single-day drop in 16 months \u2014 is the key single-stock overhang heading into today, while NVIDIA and Constellation Energy present the clearest near-term setups with confirmed catalysts and quantifiable upside gaps.",
   "key_events": [
-    "No consensus ideas reached the threshold today"
+    "Fed held rates at 3.50\u20133.75% (9-3 vote, July 29); next FOMC September 16, 2026",
+    "Amazon Q2: AWS +37% YoY to $42.2B, well above 31% consensus; stock surged ~15% Friday",
+    "Apple Q3 beat on EPS ($2.02 vs $1.89 est) but Q4 guide of 9-11% revenue growth missed ~12% consensus; stock fell ~7.4% to $308.91",
+    "ISM Manufacturing PMI for July releases Monday August 3 at 10:00 AM ET (June print: 53.3, sixth straight month in expansion)",
+    "Nonfarm payrolls (jobs report) releases Friday August 7 at 8:30 AM ET",
+    "NVIDIA reported $19.6B anchor lease with Hut 8 for 704 MW of data center capacity (fresh news)",
+    "CPI for July releases Wednesday August 12; FOMC September 16",
+    "10-year Treasury yield rose >7 bps to 4.677% after July FOMC hold"
   ],
-  "ideas": [],
+  "ideas": [
+    {
+      "ticker": "NVDA",
+      "type": "stock",
+      "name": "NVIDIA Corporation",
+      "thesis": "Amazon's decision to raise 2026 capex guidance to $220B \u2014 explicitly citing AI/cloud infrastructure \u2014 and its statement that AWS computing capacity for 2027 is already being pre-booked by customers directly validates NVIDIA's demand pipeline ahead of its August 26 earnings. A fresh $19.6B anchor lease with Hut 8 for 704 MW of data center capacity adds near-term demand visibility on top of that. NVDA has underperformed its earnings growth (EPS up ~212% in nine quarters, stock roughly flat H1 2026), creating a dislocation that the Aug 26 print could close.",
+      "catalyst": "Q2 FY2027 earnings on August 26, 2026 after market close; NVIDIA guided Q2 revenue at ~$91B (+12% sequential); data center segment expected to exceed $80B",
+      "edge": "Consensus analyst target $302.83 (61 analysts, Strong Buy) vs. Polygon-confirmed prev close of $200.75 = ~51% implied upside gap. Forward P/E near a decade low at ~22x despite 85% YoY revenue growth in Q1. Average analyst target revised up 12% over past 3 months.",
+      "bull_case": "Amazon's capex raise and AWS pre-booking through 2027 confirms hyperscaler demand is not slowing; a Q2 beat + strong Q3 guide could close the ~50% gap to consensus targets and push the stock toward its 52-week high of $236.",
+      "bear_case": "Stock carries beta of 2.21 \u2014 any macro shock or rate spike before Aug 26 could amplify downside. China's H200 approvals remain restricted to less than half of requested volumes, capping an important growth market. A revenue miss vs. the $91B guide would be severely punished at any multiple.",
+      "conviction": "high",
+      "category": "earnings-driven"
+    },
+    {
+      "ticker": "CEG",
+      "type": "stock",
+      "name": "Constellation Energy Corporation",
+      "thesis": "CEG reports Q2 2026 earnings on August 6 before market open (confirmed Finnhub), with the stock down roughly 15% from its post-Q1 highs despite a strong fundamental backdrop: Q1 beat (EPS $4.49, +1,082% YoY), full-year 2026 EPS guidance reaffirmed at $11\u2013$12, and a growing nuclear power purchase agreement pipeline (Walmart PPA signed in June). The AI data-center power demand thesis is intact and the Calpine acquisition is now embedded in the run-rate. Multiple buy-side analysts cut targets modestly in late July but maintained Buy/Overweight ratings, creating a potential setup for a post-earnings re-rating if Q2 beats the $2.35 EPS consensus.",
+      "catalyst": "Q2 2026 earnings August 6, 2026 before market open; consensus EPS estimate $2.35 (+23% YoY), revenue estimate $8.0B (per confirmed Finnhub calendar)",
+      "edge": "Stock recently trading ~$270 (per recent data); UBS target $380, TD Cowen $368, Morgan Stanley $366, Barclays $324 \u2014 median Buy-side target ~$368, implying ~36% upside from recent levels. PEG ratio of 1.08 vs. industry average of 1.80 suggests relative undervaluation despite premium P/E.",
+      "bull_case": "If Q2 beats consensus (CEG beat Q1 by ~$1.75 EPS vs $2.74 estimate), management could raise 2026 guidance and provide an updated FCF outlook ($8.4B guided for 2026-27) that resets the stock toward $300+. Nuclear power demand from AI hyperscalers is a multi-year secular driver.",
+      "bear_case": "Despite the strong Q1 beat, nuclear refueling outages and winter storm costs weighed on Q1 results and similar headwinds could persist into Q2. Execution risk remains if cost pressures offset power pricing gains. Citi holds a Neutral rating with a $297 target \u2014 below current price \u2014 citing valuation after the Calpine deal premium.",
+      "conviction": "high",
+      "category": "earnings-driven"
+    },
+    {
+      "ticker": "AAPL",
+      "type": "stock",
+      "name": "Apple Inc.",
+      "thesis": "Apple fell ~7.4% to $308.91 on July 31 after CEO Tim Cook warned of a 'very significant' global memory chip shortage that will cap Q4 revenue growth at 9\u201311% vs. the ~12% Wall Street expected, and disclosed this was his final earnings call before handing the reins to John Ternus in September. The selloff came despite a clean Q3 beat ($2.02 EPS vs. $1.89 est., revenue +16% YoY). The stock now sits near or below the average analyst consensus target (~$321\u2013$333), meaning the post-earnings reset may have created a swing entry ahead of the September iPhone launch cycle.",
+      "catalyst": "September iPhone 18 / foldable iPhone launch cycle (implied catalyst); Q4 FY2026 earnings expected late October/early November. Near-term watch: will analysts revise targets lower post-earnings, or hold as stock absorbs the guidance cut?",
+      "edge": "Post-earnings price $308.91 (Polygon confirmed) vs. consensus analyst target ~$321\u2013$333 (46 analysts, Buy consensus) = ~4\u20138% upside to average target, with one five-star analyst raising to a street-high $400. Goldman Sachs maintained Buy at $360 post-earnings. Morningstar fair value $290 is the key bear data point. This is a narrow upside gap \u2014 edge is not wide.",
+      "bull_case": "Apple beat Q3 EPS cleanly; iPhone and Mac demand are described as exceeding Apple's own expectations \u2014 the constraint is supply, not demand. A September product cycle with price increases and the foldable iPhone could re-rate the stock. The $100B buyback authorization provides a floor.",
+      "bear_case": "CEO transition risk (Cook's final call) coincides with an unresolved memory chip shortage Tim Cook called a 'once-in-a-generation' supply disruption. Morgan Stanley questioned whether AI is a measurable tailwind to products or services. Average analyst target was already at or below the stock BEFORE the selloff \u2014 there is limited upside compression left in the target. This is a recovery trade, not a dislocation trade.",
+      "conviction": "medium",
+      "category": "sector-driven"
+    }
+  ],
   "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
-  "generated_at": "2026-08-01T04:24:48.556704+00:00"
+  "generated_at": "2026-08-01T17:31:30.715196+00:00"
 }
