@@ -1,53 +1,11 @@
 {
   "date": "2026-07-31",
-  "macro_summary": "Markets are ending a turbulent week with a tech-led relief rally: Nasdaq futures were up ~1.1% overnight driven by Amazon's blowout AWS quarter (+37% YoY, fastest in 18 quarters) and Microsoft's historic +15% single-day surge post-earnings. The macro backdrop is meaningfully hawkish \u2014 the 30-year Treasury yield hit 5.26%, its highest since 2007, after the Fed held 9-3 with three dissents favoring a hike, and markets now price a ~63% probability of a September rate increase. Apple's -7% premarket slide (services and China misses, Q4 guidance 9-11% vs 12%+ expected) is the main drag. Two ideas cleared the high-conviction bar today; the rest are watched but not actionable.",
+  "macro_summary": "No ideas appeared in 2+ of the 1 overnight screening runs, suggesting a quiet or mixed news environment with no clear high-conviction setups today.",
+  "screening_note": "Analyzed 1 hourly runs. Consensus threshold: 2+ appearances.",
   "key_events": [
-    "FOMC held rates at 3.5\u20133.75% in a 9-3 vote; three dissenters wanted an immediate hike \u2014 first such unified dissent since Sept 2016",
-    "30-yr Treasury yield at 5.26% (19-year high); 10-yr at 4.74% (18-month high); markets pricing ~63% chance of Sept hike",
-    "AMZN +13% premarket: Q2 rev $200.6B (+20% YoY), AWS +37% (fastest in 18 qtrs), EPS $5.75 vs $1.82 est \u2014 AWS run rate now exceeds consensus by ~600 bps",
-    "MSFT added ~$450B in market cap Thursday \u2014 largest single-day gain in U.S. stock market history \u2014 after Azure +43% and +45% Q1 FY27 guide vs ~41% consensus",
-    "AAPL -7% premarket: Services $30.74B vs $31.22B est, China $18.8B vs $19.5B est, Q4 rev guide 9-11% vs 12%+ expected; CEO Tim Cook's final quarter before Ternus takeover Sept 1",
-    "MPWR +10% post-earnings: Q2 rev $980.6M vs $903M est (+47.6% YoY); Q3 guide $1.15B midpoint vs $986.8M consensus \u2014 a 16.5% beat on forward guidance",
-    "US CPI headline 3.5% YoY (Jun 2026); geopolitical risk elevated with US-Iran conflict ongoing, keeping oil and inflation risk bid"
+    "No consensus ideas reached the threshold today"
   ],
-  "ideas": [
-    {
-      "ticker": "NVDA",
-      "type": "stock",
-      "name": "NVIDIA Corporation",
-      "thesis": "NVDA has a confirmed earnings report on August 26 after close \u2014 the single biggest binary event in AI-infrastructure investing each quarter. The AWS +37% and Azure +43% cloud beats this week directly validate ongoing hyperscaler AI capex, which flows through to Nvidia GPU demand. NVDA has drifted ~18% below its May 2026 high of $237.95 despite its AI chips and custom silicon business each surpassing $25B annualized run rates, creating a setup where the stock enters earnings at a relative discount to its own recent range.",
-      "catalyst": "NVDA Q2 FY2027 earnings confirmed for Wednesday, August 26, 2026 after market close \u2014 coincides with Jackson Hole Economic Symposium week, creating a dual macro+earnings catalyst window",
-      "edge": "61-analyst consensus price target $302.83 vs verified prev close $195.04 \u2014 a 55% implied gap per S&P Global consensus. NVDA has beaten EPS estimates in 79 of its last 100 reporting periods. Company guided ~$91B revenue for the quarter; AWS/Azure beats this week are positive read-throughs for data center GPU demand.",
-      "bull_case": "Hyperscaler capex commitments (Amazon $220B, Microsoft $175B for 2026) remain uncut and are accelerating, directly supporting Nvidia's Blackwell order book. An earnings beat with upward guidance on August 26 could close a meaningful portion of the $108 gap to consensus target within the swing window.",
-      "bear_case": "The 30-yr yield at 5.26% and ~63% market-implied probability of a September rate hike creates a hostile multiple-compression environment for high-P/E names. If Jackson Hole turns hawkish the same week as earnings, even a beat could be sold. China export restrictions remain a structural overhang on addressable market.",
-      "conviction": "high",
-      "category": "earnings-driven"
-    },
-    {
-      "ticker": "MPWR",
-      "type": "stock",
-      "name": "Monolithic Power Systems, Inc.",
-      "thesis": "MPWR just delivered a decisive post-earnings gap with Q2 revenue beating consensus by 8.6% and EPS by 10.5%, but the more important signal is Q3 guidance of $1.15B at the midpoint \u2014 16.5% above what analysts modeled. Enterprise Data revenue surged 164% YoY, driven by power management solutions for AI server racks. This is a fresh post-earnings momentum setup where the guidance revision cycle has not yet been fully reflected in the analyst target range, and Wells Fargo just raised its price target to $1,800 from $1,700 post-print.",
-      "catalyst": "Q3 2026 revenue guidance issued July 30 at $1.14\u2013$1.16B midpoint vs $986.8M consensus \u2014 a 16.5% forward guidance beat that will force a broad analyst estimate revision cycle in the days immediately following today's session",
-      "edge": "15-analyst S&P Global consensus target $1,795 vs intraday price ~$1,447 (post-gap) = ~24% implied upside even after the +10% earnings move. Q3 guide at $1.15B midpoint is 16.5% above prior consensus, meaning current targets are likely still stale and further upgrades are probable. MPWR also announced a $500M incremental buyback authorization alongside earnings.",
-      "bull_case": "AI server power management is a non-discretionary spend for hyperscalers \u2014 every GPU rack needs MPWR's power ICs. With Enterprise Data revenue growing 164% YoY and automotive sockets expanding (1,500+ new in H1), the company is firing on multiple cylinders simultaneously. Analyst target upgrades post-earnings should provide a visible near-term re-rating catalyst.",
-      "bear_case": "MPWR trades at an elevated valuation relative to semiconductor peers, and the stock is up ~70% over the past year \u2014 valuation already embeds strong execution. Rising rates compress multiples for high-P/E semis. Customer concentration in large cloud providers means any hyperscaler capex pullback (however unlikely near-term) would disproportionately impact forward estimates. Options on MPWR carry wide spreads given its high share price, so defined-risk plays are costly.",
-      "conviction": "high",
-      "category": "earnings-driven"
-    },
-    {
-      "ticker": "AAPL",
-      "type": "option",
-      "name": "Apple Inc.",
-      "thesis": "Apple reported its strongest-ever June quarter in absolute terms, but the composition of the beat is problematic: Services ($30.74B) missed by $480M, China ($18.8B) missed by $700M, Q4 revenue guidance came in at 9-11% growth vs 12%+ expected, and gross margin included a ~2% one-time tariff refund that flatters the print. The CEO transition to John Ternus on September 1 adds execution uncertainty in the most important iPhone launch quarter. At $333.43 prev close, the stock had gained ~15% in July and ~23% YTD, making this a classic 'buy the rumor, sell the news' setup. A defined-risk put spread (rather than outright short) is the appropriate vehicle given AAPL's tendency to stabilize after earnings gaps.",
-      "catalyst": "Q4 FY2026 setup: revenue guidance 9-11% growth vs 12%+ consensus expectation, CEO Tim Cook's final quarter ending September 1 handoff to John Ternus, and memory chip shortage extending delivery delays on Mac mini and Mac Studio through the iPhone 17 launch quarter",
-      "edge": "Stock implied down ~7% at open (~$310) from $333.43 prev close. Q4 guidance midpoint implies ~10% growth vs 12%+ analyst consensus \u2014 a ~200 bps miss that has not yet been fully absorbed. Services growth decelerated from 16.3% last quarter to 12.1% this quarter, threatening the premium multiple assigned to the highest-margin segment. Options are liquid; near-dated put spreads allow defined downside risk if the guidance gap takes multiple sessions to digest.",
-      "bull_case": "iPhone revenue grew 22% YoY and the installed base of active devices set a new record. Mac revenue beat by nearly 19% above estimates. If the market concludes Services miss is temporary and re-focuses on hardware cycle strength, AAPL could stabilize or recover quickly \u2014 especially if broader tech rallies on Amazon's print.",
-      "bear_case": "Services deceleration is structurally concerning given it carries the highest margin profile in Apple's business mix. China structural weakness (intense local competition from Huawei) is multi-quarter, not one-off. Memory chip constraints will limit Q4 unit shipments regardless of demand. Leadership transition adds execution risk at the worst possible time \u2014 the iPhone 17 launch.",
-      "conviction": "medium",
-      "category": "earnings-driven"
-    }
-  ],
-  "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. All prices, targets, and estimates are sourced from third-party data and may be incomplete or inaccurate. Verify independently before acting. Options involve substantial risk and are not suitable for all investors.",
-  "generated_at": "2026-07-31T20:16:45.280308+00:00"
+  "ideas": [],
+  "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
+  "generated_at": "2026-08-01T04:24:48.556704+00:00"
 }
