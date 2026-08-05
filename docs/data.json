@@ -1,53 +1,53 @@
 {
-  "date": "2026-08-04",
-  "macro_summary": "U.S. equities are in a broadly constructive setup: the S&P 500 closed Monday within a hair of its all-time high and Nasdaq futures are up ~0.7% pre-market, driven by easing Middle East tensions and a wave of strong AI-earnings beats. The dominant overnight story is Palantir's blowout Q2 print (revenue +93% YoY, guidance raised sharply), which is lifting AI software and semiconductor names broadly. Oil fell sharply (~4-5%) on optimism around a potential US-Iran deal to reopen the Strait of Hormuz, providing a macro tailwind for equities but a headwind for energy. The Fed remains on hold at 3.5-3.75% with one cut projected for 2026; rates are not an acute market mover today.",
+  "date": "2026-08-05",
+  "macro_summary": "US equity futures are pointing higher overnight after all three major indexes closed at record highs Monday, driven by a strong earnings season and growing optimism that a US-Iran deal to reopen the Strait of Hormuz is imminent \u2014 Treasury Secretary Bessent said an agreement could come 'today or tomorrow.' WTI crude fell another 5.7% to $75.77 and Brent dropped 5.3% to $79.36, extending a multi-week collapse from over $100 at the peak of the conflict. The Fed remains on hold at 3.5\u20133.75% with NY Fed's Williams signaling rates are 'well positioned' and inflation expected to ease in H2; fed funds futures price in a possible hike to 4% by year-end, adding a modest hawkish tail risk. The dominant market story today is the NVDA/SpaceX exclusive AI hardware partnership announced on SpaceX's inaugural earnings call, which is lifting NVDA in premarket while AMD, Intel, and SPCX sell off.",
   "key_events": [
-    "PLTR Q2: Revenue $1.94B (+93% YoY) vs $1.81B est; adj EPS $0.41 vs $0.35 est; FY26 revenue guidance raised to $8.15-8.158B from prior ~$7.66B upper limit; stock surged ~27-30% AH",
-    "FAA certified Boeing 737 MAX 7 on Aug 3 after nearly a decade of delays; ~30 completed aircraft in storage ready for retrofit; first deliveries to Southwest expected early 2027",
-    "WTI crude -4.7% to 3-week low on US-Iran Strait of Hormuz deal optimism and higher Saudi shipments through Red Sea",
-    "NVDA earnings confirmed Aug 26 after close; consensus EPS $2.09",
-    "S&P 500 closed Monday at 7,600.50, within ~0.1% of all-time record; Dow posted highest close on record (+690 pts)",
-    "SK Hynix/Samsung chip volatility in South Korea remains a capping factor for semiconductor follow-through today",
-    "Semiconductor sector led Tuesday gains at +6.2%; hospital/medical stocks slid ~2.9%"
+    "SpaceX Q2 earnings (Aug 4 AMC): Revenue $7.8B (+92% YoY), but $18.4B capex including $15.8B on AI \u2014 SPCX down 9-12% on cash burn; Musk named NVDA exclusive AI chip supplier",
+    "Palantir Q2 (Aug 3 AMC): EPS $0.41 vs $0.28 est (+46% beat), revenue $1.94B (+93% YoY); FY guidance raised to $8.15B; stock up ~30% on the week",
+    "AMD Q2 (Aug 4 AMC): Revenue $11.54B (+50% YoY), data center +107% \u2014 but stock -5-8% today as results 'slightly ahead' but below 'more optimistic estimates'; P/E ~170x",
+    "Strait of Hormuz: US-Iran 60-day interim deal expected to be announced as early as today per Axios; WTI -5.7% to $75.77, Brent -5.3% to $79.36",
+    "Fed: Rates held at 3.5\u20133.75%; NY Fed Williams says policy 'well positioned'; 3 FOMC dissents in July argued for hikes; fed funds futures price 4% by year-end",
+    "NVDA earnings confirmed: Q2 FY2027 report after market close August 26, 2026; guidance ~$91B revenue for the quarter",
+    "HIMS earnings: Q2 2026 report scheduled after market close August 10, 2026"
   ],
   "ideas": [
-    {
-      "ticker": "PLTR",
-      "type": "stock",
-      "name": "Palantir Technologies Inc.",
-      "thesis": "Palantir just delivered one of the most decisive earnings beats in its history: Q2 revenue of $1.94B crushed the $1.81B consensus (+93% YoY), adj EPS of $0.41 beat the $0.35 estimate, and US commercial revenue surged 149% YoY to $764M. Management raised FY26 revenue guidance to $8.15-8.158B -- dramatically above the prior upper limit of ~$7.66B and well above the prior Street consensus of ~$7.7B. The stock was up ~27-30% after hours from its $125.65 regular-session close, and a wave of analyst PT upgrades followed this morning.",
-      "catalyst": "Q2 FY2026 earnings reported Aug 3 after close -- post-earnings gap and continuation window is open right now on Aug 4; next earnings (Q3) estimated Nov 9, 2026.",
-      "edge": "Post-AH surge to ~$144-155+ range. Multiple analyst PT raises this morning: Citi to $245, Mizuho to $215, UBS to $220, Goldman to $204, DA Davidson to $200, Northland to $200. Even the most conservative new targets imply the stock remains below the revised Street ceiling. Options are highly active today (flagged as 'notable open interest changes' and 'early notable gainers among liquid option names') -- defined-risk call spreads or long calls may offer better risk/reward than outright stock given the already large overnight gap.",
-      "bull_case": "US commercial revenue compounding at 380% since 2024 and now tracking to $3.42B+ for FY26 suggests the AI platform transition is not slowing. If PLTR re-rates toward the $200+ targets now held by multiple banks, the stock has 30-40%+ upside from the AH print.",
-      "bear_case": "The stock already absorbed a 27-30% gap overnight; buying at open means chasing. Forward P/S remains extremely elevated (north of 60x even post-guidance raise), and any macro risk-off or profit-taking wave could erase a significant portion of the gap quickly. Historical 'buy the print' setups at these valuations have often faded within days.",
-      "conviction": "medium",
-      "category": "earnings-driven"
-    },
     {
       "ticker": "NVDA",
       "type": "stock",
       "name": "NVIDIA Corporation",
-      "thesis": "NVDA is the clearest read-through to Palantir's explosive AI platform growth: PLTR's 149% US commercial revenue surge and sharply raised guidance validates continued enterprise AI infrastructure spending, which flows directly to NVDA's data center GPU demand. NVDA pre-market is up ~0.9% to ~$208, and today's sector-wide semiconductor rally (+6.2% Tuesday gains) supports the setup. The confirmed Aug 26 earnings date gives a swing-friendly 3-week catalyst window.",
-      "catalyst": "Q2 FY2027 earnings confirmed Aug 26, 2026 after close -- consensus EPS $2.09. PLTR's AI beat today serves as an immediate near-term demand signal ahead of that print.",
-      "edge": "Consensus analyst target (61 analysts, S&P Global) is $302.83 vs verified prev close of $206.64 -- a ~46.5% implied upside gap to Street mean. Pre-market at ~$208.55. Options are the preferred vehicle: with earnings Aug 26, defined-risk setups (e.g., call spreads expiring September) capture the earnings event without unlimited downside exposure. NVDA was named Zacks Rank #1 (Strong Buy) on Aug 4.",
-      "bull_case": "FY2026 revenue was $215.94B (+65% YoY) and the AI capex cycle shows no signs of deceleration per today's PLTR and broader hyperscaler commentary. A strong Aug 26 print with raised guidance could close a meaningful portion of the $96 gap to Street consensus.",
-      "bear_case": "SK Hynix/Samsung volatility in South Korea is a near-term semiconductor headwind today, and Michael Burry has reportedly increased bearish bets on NVDA and the semiconductor sector. At ~$207, the stock is still up only ~19% over the past 12 months -- suggesting the market has already been skeptical of the growth story at these levels.",
+      "thesis": "SpaceX's inaugural earnings call (Aug 4) produced a headline-grabbing commitment: Elon Musk named NVDA the exclusive AI hardware provider for all future SpaceX AI infrastructure, targeting 20 GW of compute capacity by end-2027 on NVDA's Vera Rubin architecture. This adds a major new demand vector on top of hyperscaler capex already at record levels. NVDA is up ~2% in premarket while the broader semiconductor complex sells off on AMD/SPCX disappointments, making the relative outperformance technically significant. The confirmed Aug 26 earnings report is 21 days away and will be the first full quarterly read on Blackwell ramp velocity \u2014 the most watched data point in equity markets.",
+      "catalyst": "Q2 FY2027 earnings confirmed after market close August 26, 2026 \u2014 first full Blackwell architecture quarter; SpaceX exclusive AI hardware deal announced August 4 adds incremental demand signal ahead of print",
+      "edge": "Consensus analyst mean PT of $302.83 (61 analysts, 'Strong Buy') vs $211.94 verified prev close = ~43% implied upside to consensus; Melius Buy PT $400 reaffirmed May 2026. Consensus Q2 revenue guidance ~$91B; SpaceX deal alone could add $100B+ in incremental revenue per Melius if even 2 GW of the 20 GW buildout executes. Options are active and liquid \u2014 a defined-risk call spread or long call into Aug 26 earnings may offer better risk/reward than outright stock for a swing hold.",
+      "bull_case": "Blackwell ramp confirms on Aug 26, Q3 guidance approaches $100B+, and SpaceX deal quantification drives estimate revisions higher \u2014 stock re-rates toward the $300+ consensus mean. AI capex from hyperscalers remains at record levels with no signs of deceleration.",
+      "bear_case": "NVDA already rallied hard from ~$189 lows; last quarter it missed EPS estimates and the stock fell 1.8% the day after. At ~22x forward P/E the bar is high, and any Blackwell supply-chain friction or delivery delay commentary on Aug 26 could produce a 'sell the news' reaction. SpaceX's massive capex burn ($18.4B in one quarter) raises questions about whether demand converts to revenue on NVDA's timeline.",
       "conviction": "high",
       "category": "earnings-driven"
     },
     {
-      "ticker": "BA",
+      "ticker": "HIMS",
       "type": "stock",
-      "name": "The Boeing Company",
-      "thesis": "The FAA's certification of the 737 MAX 7 on Aug 3 -- after nearly a decade of delays -- is a meaningful milestone in Boeing's financial recovery narrative, with ~30 completed aircraft ready for final retrofit and Southwest deliveries starting early 2027. Boeing's Q2 results (reported July 28) already showed 171 aircraft deliveries (highest since 2018), positive FCF of $631M (first time since 2018), and a record backlog of $715B. Today's MAX 7 certification triggered a fresh wave of analyst upgrades: BNP Paribas upgraded to Outperform, JPMorgan raised target to $290, Goldman raised to $260, RBC to $265.",
-      "catalyst": "FAA 737 MAX 7 certification issued Aug 3, 2026 -- clearing path for deliveries and production ramp. Next major undated catalyst: 777X FAA certification (still in queue, expected 2026-2027 per management).",
-      "edge": "Median analyst 12-month target ~$273 (28 analysts) vs today's price ~$236-237, implying ~15-17% upside. JPMorgan's revised target of $290 implies ~23% upside. Options available for defined-risk exposure. Boeing generated its first positive FCF since 2018 in Q2 ($631M), validating the recovery thesis with a hard number.",
-      "bull_case": "MAX 7 certification de-risks the production ramp story; if 777X follows in 2026, the multiple could re-rate sharply higher as FCF visibility improves toward management's $1-3B FY26 target.",
-      "bear_case": "MAX 7 is a slow-selling variant (less than 6% of backlog) and won't enter passenger service until early 2027 -- the market may have already priced this milestone. Free cash flow remains volatile, EASA certification for MAX 7 has not been pursued, and the company still trails Airbus significantly in order and delivery volumes.",
+      "name": "Hims & Hers Health, Inc.",
+      "thesis": "HIMS reports Q2 2026 earnings after market close on August 10, with consensus revenue of ~$699M vs Q1's $608M \u2014 a significant sequential ramp that management's own FY guidance ($2.8\u20133B) requires. The stock has been beaten down after a brutal Q1 miss (EPS -$0.44 vs +$0.04 expected) and is trading near $26, well below a mean analyst PT of $38.25, creating a pre-earnings setup where the bar for a positive surprise is arguably lower than it was before Q1. The company is expanding into GLP-1 weight loss and peptide categories, which management flagged as the key growth driver for H2.",
+      "catalyst": "Q2 2026 earnings after market close August 10, 2026 \u2014 first report since the brutal Q1 miss reset expectations; revenue must show sequential acceleration to validate FY guidance",
+      "edge": "Mean analyst PT $38.25 across 14 analysts vs ~$26 current price = ~47% implied upside; Barclays OW at $39, Needham Buy at $35. Consensus EPS est is -$0.049 (barely negative), a low bar after Q1's -$0.44 disaster. Options are available \u2014 buying a call spread into Aug 10 limits downside to premium paid if HIMS misses again.",
+      "bull_case": "Revenue comes in at or above the $699M consensus, showing the GLP-1/peptide ramp is real, and management reaffirms or raises FY guidance \u2014 stock re-rates toward $35-39 analyst targets over the swing horizon.",
+      "bear_case": "HIMS missed badly in Q1 (revenue and EPS both below estimates), insiders have sold $123M more than bought in the past 12 months, and the shift to higher-cost clinical categories is compressing near-term margins. A second consecutive miss would likely push the stock below current lows with limited technical support.",
       "conviction": "medium",
-      "category": "sector-driven"
+      "category": "earnings-driven"
+    },
+    {
+      "ticker": "JETS",
+      "type": "etf",
+      "name": "U.S. Global Jets ETF",
+      "thesis": "The Strait of Hormuz reopening catalyst is reaching its final phase today \u2014 Treasury Secretary Bessent said a deal could be announced 'today or tomorrow,' and Axios reported a 60-day interim agreement is imminent. WTI crude has fallen 5.7% to $75.77, significantly below the $100+ peak during the conflict. Airlines are the most direct beneficiary of sustained lower jet fuel costs: forward curves already price in a ~25% quarter-over-quarter decline in Q3 jet fuel costs per BMO, and passenger demand has remained fully intact throughout the conflict. JETS is the only pure-play airline ETF with liquid options.",
+      "catalyst": "Imminent formal announcement of US-Iran 60-day Strait of Hormuz reopening agreement (Treasury Secretary Bessent guided 'today or tomorrow' on Aug 4); WTI crude at $75.77, continuing to fall from $100+ conflict peak",
+      "edge": "JETS 52-week range $23.17\u2013$33.98; currently ~$33.42 (Aug 4 close), near 52-week highs \u2014 the war premium unwind has already moved the ETF ~44% off its lows. The remaining edge is the margin recovery that flows through to Q3 earnings: BMO estimates forward curves price a 25% QoQ jet fuel cost decline, which should drive earnings beats across DAL, UAL, AAL \u2014 JETS provides diversified exposure. Historical data across 26 years shows airline stocks sustain outperformance for multiple quarters after supply-shock oil declines with demand intact.",
+      "bull_case": "Formal deal signing today/tomorrow removes the last uncertainty; oil falls further toward pre-war levels ($64-67 Brent), Q3 airline earnings surprise to the upside on fuel savings, and JETS breaks to new 52-week highs with continued institutional inflows.",
+      "bear_case": "JETS is already near its 52-week high, meaning much of the Hormuz trade has been priced in since June. The MOU is a 60-day interim deal \u2014 not a permanent resolution \u2014 and any breakdown in Iran-US negotiations within the 60-day window would snap oil prices back up sharply. Infrastructure damage from the conflict could also delay full traffic normalization for months.",
+      "conviction": "medium",
+      "category": "macro-driven"
     }
   ],
   "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
-  "generated_at": "2026-08-04T19:17:01.181280+00:00"
+  "generated_at": "2026-08-05T15:32:01.811296+00:00"
 }
