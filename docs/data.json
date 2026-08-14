@@ -1,72 +1,11 @@
 {
-  "date": "2026-08-12",
-  "macro_summary": "Markets face a binary macro inflection point today as the July CPI print drops at 8:30 AM ET, with the 10-year yield already elevated at 4.7% and CME FedWatch pricing roughly a 55% probability of a September hike. Energy-driven inflation risks (Iran/Hormuz disruption, oil +21% MoM) could surprise to the upside and reprice Fed expectations sharply. Tech earnings season enters its highest-stakes moment with NVDA reporting August 26, while AI infrastructure capex commitments ($500B+) continue to underpin secular demand narratives. Geopolitical risk-off has created a meaningful dislocation in HBM memory names like SKHY despite record-breaking fundamentals.",
-  "screening_note": "6 independent overnight screening runs analyzed. Minimum threshold to qualify: 2 appearances. 4 tickers cleared the bar. NVDA and SKHY each appeared in all 6 runs; QQQ in 4 of 6; SPY in 2 of 6.",
+  "date": "2026-08-13",
+  "macro_summary": "No ideas appeared in 2+ of the 1 overnight screening runs, suggesting a quiet or mixed news environment with no clear high-conviction setups today.",
+  "screening_note": "Analyzed 1 hourly runs. Consensus threshold: 2+ appearances.",
   "key_events": [
-    "July CPI print \u2014 today, Aug 12 at 8:30 AM ET (binary macro trigger)",
-    "NVDA Q2 FY2027 earnings \u2014 Aug 26, 2026 after close (14 days)",
-    "FOMC September rate decision \u2014 Sep 15\u201316, 2026 (~55% hike probability)",
-    "SK Hynix HBM4 mass production ramp \u2014 confirmed H2 2026",
-    "Cantor Fitzgerald 12-month double call on SKHY \u2014 issued Aug 4, 2026"
+    "No consensus ideas reached the threshold today"
   ],
-  "ideas": [
-    {
-      "ticker": "NVDA",
-      "type": "option",
-      "name": "NVIDIA Corporation",
-      "appearances": 6,
-      "total_runs": 6,
-      "thesis": "NVDA appeared in all 6 of 6 overnight screens with unanimous high conviction \u2014 the strongest signal in today's digest. The stock trades ~39% below the consensus analyst price target of $302.83 (current ~$217) while guiding ~95% YoY revenue growth for the upcoming quarter, yet carries roughly the same forward multiple as the S&P 500 (21x). With the August 26 earnings report 14 days away and BofA explicitly flagging a beat-and-raise, a defined-risk call spread (Sep/Oct expiry) is the preferred structure to capture the pre-earnings run while limiting binary print exposure in an elevated IV environment.",
-      "catalyst": "Q2 FY2027 earnings report \u2014 August 26, 2026 after close; BofA expects beat-and-raise on $500B AI infrastructure capex cycle",
-      "edge": "Consensus analyst target $302.83 vs. last ~$217.55 = ~39% upside gap; 58 of 61 analysts rate Buy/Strong Buy; BofA $350 target implies ~61% upside; stock trades at 21.1x forward earnings despite ~95% guided YoY revenue growth",
-      "bull_case": "A beat-and-raise print on Aug 26 re-rates the stock toward consensus targets, with AI infrastructure capex commitments providing multi-year revenue visibility; call spreads allow participation with capped downside before the binary event.",
-      "bear_case": "Elevated IV makes options expensive, and any guidance miss or macro hawkish shock from today's CPI could compress tech multiples further; post-earnings IV crush could hurt long options even on a moderate beat.",
-      "conviction": "high",
-      "category": "earnings-driven"
-    },
-    {
-      "ticker": "SKHY",
-      "type": "stock",
-      "name": "SK Hynix Inc. (ADR)",
-      "appearances": 6,
-      "total_runs": 6,
-      "thesis": "SKHY appeared in all 6 of 6 overnight screens and represents the most extreme fundamental-vs-price dislocation in today's digest. The stock has fallen ~30% from its July peak on geopolitical/risk-off sentiment while posting record Q2 results: 76% operating margins and +257% YoY revenue growth \u2014 figures that are fundamentally inconsistent with a ~$135\u2013143 price vs. a consensus analyst target of $245.46 (+70\u201382% upside). The HBM4 production ramp is confirmed for H2 2026, and Cantor Fitzgerald issued a 12-month double call on August 4. The selloff appears sentiment-driven, not fundamental, making this a high-conviction mean-reversion candidate with a staged or options-based entry near $155 Fibonacci resistance.",
-      "catalyst": "HBM4 mass production ramp H2 2026; Cantor Fitzgerald 12-month double call issued Aug 4, 2026; potential China plant stake sale decision pending",
-      "edge": "Consensus analyst target $245.46 vs. current ~$135\u2013143 = ~70\u201382% upside gap; forward P/E of 5.19x on 76% operating margins; stock -30% from July peak on geopolitical noise, not earnings deterioration",
-      "bull_case": "Record margins and HBM4 ramp are intact \u2014 as geopolitical sentiment normalizes, the stock re-rates sharply toward $155 near-term resistance and eventually toward the $245 consensus target; Amazon AI commitment through 2028 validates long-duration demand.",
-      "bear_case": "Broken short-term technicals (lower highs and lows) signal continued distribution; geopolitical risk (China tensions, export controls) could escalate and impair the HBM4 ramp or force asset sales at unfavorable terms.",
-      "conviction": "high",
-      "category": "sector-driven"
-    },
-    {
-      "ticker": "QQQ",
-      "type": "option",
-      "name": "Invesco QQQ Trust (Nasdaq-100 ETF)",
-      "appearances": 4,
-      "total_runs": 6,
-      "thesis": "QQQ appeared in 4 of 6 overnight screens as the preferred vehicle to express today's CPI binary via defined-risk options. The 10-year yield sits at 4.7%, the Nasdaq was already -0.6% Tuesday, and September Fed hike probability is ~55% \u2014 creating an asymmetric setup where a hot CPI print (consensus 3.4% YoY core) compresses tech multiples further, while a soft print matching BofA's 2.5% YoY forecast could catalyze a sharp relief rally. Short-dated weekly or August-expiry options (straddle or directional spread) are the recommended structure rather than outright index exposure.",
-      "catalyst": "July CPI print \u2014 today August 12 at 8:30 AM ET; FOMC September 15\u201316 decision, with hike probability near 55%",
-      "edge": "BofA forecasts core CPI at 2.5% YoY (lowest since January) \u2014 a soft print directly removes September hike risk and is an unambiguous bullish catalyst for tech-heavy QQQ; elevated IV into CPI creates cheap defined-risk structures in either direction",
-      "bull_case": "A soft CPI print eases September hike fears, yields pull back from 4.7%, and QQQ bounces sharply \u2014 a call spread or straddle captures the relief rally with limited capital at risk.",
-      "bear_case": "Energy-driven CPI surprise to the upside reprices September hike odds toward certainty, pushing the 10-year higher and compressing Nasdaq multiples; put spreads or the short leg of a straddle benefit in this scenario.",
-      "conviction": "medium",
-      "category": "macro-driven"
-    },
-    {
-      "ticker": "SPY",
-      "type": "option",
-      "name": "SPDR S&P 500 ETF Trust",
-      "appearances": 2,
-      "total_runs": 6,
-      "thesis": "SPY appeared in 2 of 6 overnight screens \u2014 the minimum qualifying threshold \u2014 as a complementary macro hedge to QQQ. With VIX near 15.28 (deep complacency) and inflation running 3.8% YoY in April with energy up 17\u201321% MoM from Iran/Hormuz disruption, a hot CPI print today could materially reprice September hike odds from near-zero and deliver asymmetric downside to SPY. Short-dated put spreads (Aug/Sep expiry) are cheap given suppressed vol and offer high convexity on a hawkish surprise.",
-      "catalyst": "July CPI print \u2014 today August 12 at 8:30 AM ET; September FOMC rate decision Sep 15\u201316, 2026 (~50-55% hike probability)",
-      "edge": "VIX at 15.28 (suppressed) with 10Y yield at 4.696% and June CPI at 3.5% YoY; energy +21% MoM creates upside CPI risk \u2014 put spreads are historically cheap at this vol level relative to the macro binary risk",
-      "bull_case": "A soft CPI print resolves the Fed uncertainty in the market's favor, yields decline, and SPY resumes its uptrend \u2014 the hedge expires worthless but portfolio longs benefit.",
-      "bear_case": "An upside CPI surprise resurrects September hike conviction, compresses P/E multiples across the S&P, and SPY put spreads pay out with high convexity given how little hedging is currently in place.",
-      "conviction": "medium",
-      "category": "hedge"
-    }
-  ],
+  "ideas": [],
   "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
-  "generated_at": "2026-08-12T13:00:50.450649+00:00"
+  "generated_at": "2026-08-14T00:00:00.929666+00:00"
 }
