@@ -1,11 +1,59 @@
 {
   "date": "2026-08-14",
-  "macro_summary": "No ideas appeared in 2+ of the 1 overnight screening runs, suggesting a quiet or mixed news environment with no clear high-conviction setups today.",
-  "screening_note": "Analyzed 1 hourly runs. Consensus threshold: 2+ appearances.",
+  "macro_summary": "Markets are operating near all-time highs (S&P 500 +20.64% YoY) with the Fed on hold following clean CPI/PPI prints, removing the primary rate headwind for tech. The September FOMC (Sept 16\u201317) remains a ~55/45 hold/hike toss-up, keeping duration-sensitive Nasdaq names in focus. AI infrastructure capex from hyperscalers continues to accelerate, with the NVDA\u2013SK Group $500B+ partnership announced Aug 13 serving as the most significant sector catalyst of the week. NVDA's August 26 earnings report is the single largest remaining binary event of the season.",
+  "screening_note": "2 of 2 overnight screening runs analyzed; minimum threshold to qualify was 2 appearances. All 3 ideas appeared in 100% of runs.",
   "key_events": [
-    "No consensus ideas reached the threshold today"
+    "NVDA Q2 FY2027 earnings \u2014 Aug 26 after market close (last Mag-7 to report)",
+    "NVDA\u2013SK Group $500B+ AI infrastructure partnership announced Aug 13",
+    "September FOMC meeting Sept 16\u201317, 2026 (~55/45 hike vs. hold)",
+    "Next CPI release before FOMC is the swing macro factor",
+    "HBM4 mass production ramp underway at SK Hynix in H2 2026",
+    "South Korean president US visit expected; large US tech supply contracts anticipated"
   ],
-  "ideas": [],
+  "ideas": [
+    {
+      "ticker": "NVDA",
+      "type": "option",
+      "name": "NVIDIA Corporation",
+      "appearances": 2,
+      "total_runs": 2,
+      "thesis": "NVDA appeared in all 2 of 2 overnight screens with high conviction both times, making it the strongest consensus idea of the digest. With earnings on Aug 26 (last Mag-7 to report), a 61/61 analyst Buy/Strong Buy wall, and a consensus price target of ~$303\u2013$314 vs. spot ~$225 (~35\u201342% gap), the setup favors a defined-risk call spread (e.g., Aug 29 expiry $225/$250) to capture the beat while capping downside against binary earnings risk and elevated IV.",
+      "catalyst": "Q2 FY2027 earnings report \u2014 August 26, 2026 after market close",
+      "edge": "61/61 analysts at Buy/Strong Buy; consensus PT ~$303\u2013$314 vs. spot ~$225 = 35\u201342% upside gap; revenue consensus $91.9B with upside scenario $93\u201395B; PEG ~0.55 suggests undervaluation relative to growth",
+      "bull_case": "Blackwell/HBM demand drives a beat-and-raise, consensus PT of $303+ becomes near-term anchor, and NVDA re-rates sharply as the last and most-watched Mag-7 print of the season triggers a broader tech squeeze.",
+      "bear_case": "Elevated IV means options are expensive into the print; any guidance miss or export restriction update could punish the stock hard despite the strong buy wall, and a beat may already be priced in near $225.",
+      "conviction": "high",
+      "category": "earnings-driven"
+    },
+    {
+      "ticker": "SKHY",
+      "type": "option",
+      "name": "SK Hynix Inc. (ADR)",
+      "appearances": 2,
+      "total_runs": 2,
+      "thesis": "SKHY appeared in all 2 of 2 overnight screens with high conviction, driven by its position as the dominant HBM memory supplier embedded in every major AI roadmap. The Aug 13 $500B+ NVDA\u2013SK Group partnership announcement is a fresh, named catalyst, and the 14-analyst consensus PT of ~$245 vs. spot ~$167\u2013168 implies a 46% upside gap. Options provide a defined-risk entry structure given post-catalyst volatility, with swing support seen near $155\u2013160.",
+      "catalyst": "NVDA\u2013SK Group $500B+ AI infrastructure partnership announced Aug 13, 2026; HBM4 mass production ramp H2 2026; South Korean president US visit expected to yield large US tech supply contracts",
+      "edge": "14-analyst consensus PT of $244.92\u2013$245.46 vs. spot ~$167\u2013168 = ~46% upside gap; stock +9% on Aug 13 catalyst but still ~13% below 52-week high of $194.80; 76% operating margin reported in Q2 2026; Cantor Fitzgerald double call issued Aug 4",
+      "bull_case": "HBM4 ramp, the blockbuster NVDA partnership, and sovereign capital entry (Temasek) create a multi-month demand runway; if NVDA beats on Aug 26, SKHY re-rates as the direct memory beneficiary with a 46% gap to close.",
+      "bear_case": "Post-catalyst bounce of 9% may need to consolidate before the next leg; South Korean macro or FX risks could weigh on ADR pricing, and any softness in NVDA's forward guidance would hit HBM demand expectations directly.",
+      "conviction": "high",
+      "category": "sector-driven"
+    },
+    {
+      "ticker": "QQQ",
+      "type": "option",
+      "name": "Invesco QQQ Trust (Nasdaq-100 ETF)",
+      "appearances": 2,
+      "total_runs": 2,
+      "thesis": "QQQ appeared in all 2 of 2 overnight screens at medium conviction as the cleanest macro/NVDA proxy with defined-risk options and high liquidity. A call spread expiring post-Aug 26 captures the NVDA earnings upside at the index level, while a longer-dated spread through post-Sept FOMC expresses the 'Fed holds, tech rips' thesis \u2014 particularly powerful given QQQ's duration sensitivity relative to SPY at all-time highs.",
+      "catalyst": "NVDA earnings Aug 26, 2026 (largest single-weight catalyst for Nasdaq-100); September FOMC Sept 16\u201317, 2026 (hold scenario = meaningful upside squeeze)",
+      "edge": "If Fed holds (currently ~45% probability), QQQ historically catches the strongest bid vs. SPY due to duration sensitivity; S&P already at all-time highs means a hold surprise compresses the rate headwind premium embedded in tech valuations",
+      "bull_case": "NVDA beats on Aug 26 and drives a Nasdaq-100 rip; if Sept FOMC holds, duration tailwind amplifies the move and QQQ outperforms SPY meaningfully into year-end.",
+      "bear_case": "If NVDA disappoints or the Fed signals a September hike, QQQ faces a double headwind from its largest single weight and rising rate pressure simultaneously; elevated valuations leave limited cushion.",
+      "conviction": "medium",
+      "category": "macro-driven"
+    }
+  ],
   "disclaimer": "This is automated research synthesis, not financial advice. Not a licensed advisor. Verify independently before acting.",
-  "generated_at": "2026-08-15T02:07:08.238962+00:00"
+  "generated_at": "2026-08-15T04:25:55.674649+00:00"
 }
